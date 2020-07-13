@@ -1,0 +1,144 @@
+@import "bourbon";
+@import "base/base";
+
+
+h1 {
+    font-size: 84px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    display: flex;
+    background: linear-gradient(-69.63deg,   #5449D4  0%, #75F7F9 100%);
+    color: white;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.20;
+        background: url(../images/contour_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    > div {
+        width: 100%;
+        position: relative;
+        padding: 20%;
+        display: flex;
+        flex-direction: column;
+
+        .social {
+            margin-top: auto;
+            display: flex;
+
+            font-size: 30px;
+
+            > li {
+                margin-right: var(--spacing);
+                
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .label {
+                @include hide-visually;
+            }
+        }
+
+        .menu {
+            font-family: var(--font-family--heading);
+            font-size: 30px;
+            text-transform: uppercase;
+            margin: var(--spacing) 0;
+
+            > li {
+                margin-bottom: var(--spacing--small);
+            }
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        outline: none;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        .title {
+            @include hide-visually;
+        }
+
+        .logo {
+            font-size: 96px;
+        }
+    }
+}
+
+.main {
+    margin-left: 20%;
+    width: 80%;
+    
+     > div  {
+        padding:  5% 10%;
+
+        img {
+            border-radius: 12px;
+            //box-shadow: 3px 6px 24px 0px rgba(0,0,0,0.75);
+        }
+
+        h1 {
+            font-size: 84px;
+            color: #63C9D7;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 100;
+            color: #275B62;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: 24px;
+            color: #999;
+            max-width: 1160px;
+        }
+
+        &.work {
+            padding-top: 2.5%;
+
+            h1 {
+                font-size: 3rem;
+                color: #ADADAD;
+                font-weight: 400;
+                margin-bottom: 4rem;
+            }
+
+            
+        }
+
+        .breadcrumb {
+            li {
+                color: #121212;
+                font-weight: 100;
+                text-transform: uppercase;
+                font-family: var(--font-family--heading);
+            }
+
+            margin-bottom: var(--spacing--small);
+        }
+     }
+}
