@@ -25,6 +25,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <input type="checkbox" id="nav-toggle-trigger" class="nav-toggle-trigger" />
+      <label for="nav-toggle-trigger" class="nav-toggle">
+          <span>Toggle Navigation</span>
+      </label>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="main">{children}</main> 
     </>

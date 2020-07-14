@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <h1>Hello! I'm Douglas Meehan.</h1>
+      <h1><span>Hello!</span><span>I'm Douglas Meehan.</span></h1>
       <h2>UI/UX Design, Data Visualization, Mapping.</h2>
       <p>I am a designer and craftsman with 20 years of experience in organizing and visually representing complex systems through user interface design, 
         data visualization, mapping, and visual representation of space.</p>

@@ -1,18 +1,11 @@
 @import "bourbon";
 @import "base/base";
 
+@import "components/nav-toggle";
 
-h1 {
-    font-size: 84px;
-}
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 20%;
-    display: flex;
+
+@mixin contour-background {
     background: linear-gradient(-69.63deg,   #5449D4  0%, #75F7F9 100%);
     color: white;
 
@@ -29,43 +22,85 @@ h1 {
         background-size: cover;
         z-index: -1;
     }
+}
+
+
+
+
+.header {
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    padding: 1.5rem;
+    height: 6rem;
+
+    @include contour-background();
 
     > div {
-        width: 100%;
+        //display: flex;
+        //flex-direction: column;
+        //justify-content: space-between;
+    }
+    
+    h1 {
+        color: white;
+        margin-bottom: 0;
+        
+        .title {
+            @include hide-visually;
+        }
+
+        .logo {
+            font-size: 3rem;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    .menu {
         position: relative;
-        padding: 20%;
+        width: 100%;
+        left: -100%;
+        transition: all 0.125s ease-in-out;
+        opacity: 0;
+
+        font-family: var(--font-family--heading);
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: var(--spacing) 0;
+
+        > li {
+            margin-bottom: var(--spacing--small);
+        }
+    }
+
+    > div {
+
+    }
+
+    .social {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        bottom: var(--spacing);
+        transition: all 0.125s ease-in-out;
+        opacity: 0;
+        margin-top: auto;
         display: flex;
-        flex-direction: column;
+        
+        > li {
+            margin-right: var(--spacing);
+            font-size: 24px;
 
-        .social {
-            margin-top: auto;
-            display: flex;
-
-            font-size: 30px;
-
-            > li {
-                margin-right: var(--spacing);
-                
-
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
-
-            .label {
-                @include hide-visually;
+            &:last-child {
+                margin-right: 0;
             }
         }
 
-        .menu {
-            font-family: var(--font-family--heading);
-            font-size: 30px;
-            text-transform: uppercase;
-            margin: var(--spacing) 0;
-
-            > li {
-                margin-bottom: var(--spacing--small);
-            }
+        .label {
+            @include hide-visually;
         }
     }
 
@@ -75,70 +110,290 @@ h1 {
         outline: none;
     }
 
-    h1 {
-        margin-bottom: 0;
-        .title {
-            @include hide-visually;
-        }
-
-        .logo {
-            font-size: 96px;
-        }
-    }
 }
 
 .main {
-    margin-left: 20%;
-    width: 80%;
+    margin-top: 6rem;
+    > div  {
+        padding: var(--spacing);
+    }
     
-     > div  {
-        padding:  5% 10%;
+    img {
+        border-radius: 6px;
+        //box-shadow: 3px 6px 24px 0px rgba(0,0,0,0.75);
+    }
 
-        img {
-            border-radius: 12px;
-            //box-shadow: 3px 6px 24px 0px rgba(0,0,0,0.75);
+    h1 {
+        font-size: 64px;
+        color: #63C9D7;
+
+        span {
+            display: block;
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 100;
+        color: #275B62;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        font-size: 24px;
+        color: #999;
+        max-width: 1160px;
+    }
+
+    &.work {
+        padding-top: 2.5%;
+
+        h1 {
+            font-size: 3rem;
+            color: #ADADAD;
+            font-weight: 400;
+            margin-bottom: 4rem;
+        }
+
+        
+    }
+
+    .breadcrumb {
+        li {
+            color: #121212;
+            font-weight: 100;
+            text-transform: uppercase;
+            font-family: var(--font-family--heading);
+        }
+
+        margin-bottom: var(--spacing--small);
+    }
+}
+
+@media (min-width: 768px) { 
+    .nav-toggle, .nav-toggle-trigger {
+        display: none;
+    }
+
+    .header {
+        height: 8rem;
+
+        &::after {
+            background: url(../images/contour_bg_90.png);
+            background-position: left bottom;
         }
 
         h1 {
-            font-size: 84px;
-            color: #63C9D7;
+            .logo {
+                font-size: 4rem;
+            }
+        }
+
+        > div {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .menu {
+            opacity: 1;
+            position: static;
+            display: flex;
+            margin-left: auto;
+            width: auto;
+
+            > li {
+                margin-top: 1rem;
+                font-size: 1rem;
+                margin-right: var(--spacing);
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .social {
+            position: fixed;
+            left: auto;
+            top: var(--spacing);
+            right: var(--spacing);
+            bottom: auto;
+            width: auto;
+            opacity: 1;
+            > li {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .main {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .header {
+        transition: none;
+        position: fixed;
+        height: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        width: 240px;
+        margin-left: 0;
+        display: flex;
+
+        &::after {
+            background: url(../images/contour_bg.png);
+            background-position: right top;
+        }
+
+        h1 {
+            .logo {
+                font-size: 5rem;
+            }
+        }
+
+        > div {
+            width: 100%;
+            padding: 0;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .social {
+            left: 0;
+            opacity: 1;
+            position: static;
+
+            > li {
+                font-size: 21px;
+            }
+        }
+
+        .menu {
+            display: block;
+            left: 0;
+            opacity: 1;
+            margin-left: 0;
+
+            > li {
+                margin-top: 0;
+                font-size: 21px;
+                margin-right: 0;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        
+    }
+
+    .main {
+        margin-top: 0;
+        margin-left: 240px;
+        width: 80%;
+
+        > div  {
+            padding:  5%;
+        }
+
+        h1 {
+            font-size: 72px;
         }
 
         h2 {
             font-size: 36px;
-            font-weight: 100;
-            color: #275B62;
             margin-bottom: 4rem;
         }
+    }
+}
 
-        p {
-            font-size: 24px;
-            color: #999;
-            max-width: 1160px;
+
+@media (min-width: 1280px) { 
+
+    .header {
+        width: 20%;
+        
+        > div {
+            padding: 10%;
         }
 
-        &.work {
-            padding-top: 2.5%;
+        .social {
 
-            h1 {
-                font-size: 3rem;
-                color: #ADADAD;
-                font-weight: 400;
-                margin-bottom: 4rem;
+            > li {
+                font-size: 24px;
             }
-
             
         }
 
-        .breadcrumb {
-            li {
-                color: #121212;
-                font-weight: 100;
-                text-transform: uppercase;
-                font-family: var(--font-family--heading);
-            }
-
-            margin-bottom: var(--spacing--small);
+        .menu {
+            left: 0;
+            opacity: 1;
         }
-     }
+
+        
+    }
+
+    .main {
+        margin-top: 0;
+        margin-left: 20%;
+        width: 80%;
+
+        > div  {
+            padding:  5% 10%;
+        }
+
+        h1 {
+            font-size: 72px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 4rem;
+        }
+    }
 }
+
+@media (min-width: 1680px) { 
+    .header {
+        
+        h1 {
+            .logo {
+                font-size: 6rem;
+            }
+        }
+
+        
+
+        .social {
+            > li {
+                font-size: 30px;
+            }
+            
+        }
+
+        .menu {
+            > li {
+                font-size: 24px;
+             }
+        }
+    }
+
+    .main {
+        h1 {
+            font-size: 84px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 4rem;
+        }
+    }
+}
+
