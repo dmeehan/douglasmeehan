@@ -11,12 +11,12 @@ export default ({ data }) => (
 
 <   SEO title="Home" />
     <div className="page">
-      <div className="page-header">
+      
         <h1><span>Hello!&nbsp;</span><span>I'm Douglas Meehan.</span></h1>
         <h2 className="page-subtitle">I'm a <strong>User Interface Designer and Developer</strong> with 20 years experience 
         in organizing and visually representing complex systems through UI/UX, 
         data visualization, mapping, and visual representation of space.</h2>
-      </div>
+      
       <div className="page-description"></div>
       { }
       <div className="page-projects">
@@ -40,9 +40,16 @@ function renderProjects(projects) {
           </Link>
         </div>
         <div className="project-preview-text">
-            <h2 className="project-preview-title">{ title }</h2>
+              <h2 className="project-preview-title">
+                  { title }
+              </h2>
             <p className="project-preview-intro">{ intro }</p>
             <p className="project-preview-category">{ category }</p>
+            <p className="project-preview-category">
+              <Link to={`/work/${slug}/`}>
+                View project &raquo;
+                </Link>
+            </p>
         </div>
       </div>
     )

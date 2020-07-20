@@ -34,7 +34,9 @@ const ProjectTemplate = ({ data }) => {
         </div>
         <div className="project">
           <h1>{title}</h1>
-          <Img fluid={featuredImage.childImageSharp.fluid} />
+          <div className="project-image">
+            <Img fluid={featuredImage.childImageSharp.fluid} />
+          </div>
           <div className="project-description">
               <div className="project-meta">
                 <ul>

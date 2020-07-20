@@ -33,13 +33,20 @@ const ProjectPage = ({ data }) => {
             </Link>
           </div>
           <div className="project-preview-text">
-              <h2 className="project-preview-title">{ title }</h2>
+              <h2 className="project-preview-title">
+                { title }
+              </h2>
               <p className="project-preview-intro">{ intro }</p>
               <p className="project-preview-category">{ category }</p>
+              <p className="project-preview-category">
+                <Link to={`/work/${slug}/`}>
+                  View project &raquo;
+                  </Link>
+              </p>
           </div>
       </div>
       )
-  })
+    })
   }
 }
 

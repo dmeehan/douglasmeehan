@@ -32,7 +32,6 @@ const IndexPage = () => (
                 <textarea name="message" id="message" rows="5" />
             </label>
             <button type="submit">Send</button>
-            <input type="reset" value="Clear" />
         </form>
     </div>
   </Layout>

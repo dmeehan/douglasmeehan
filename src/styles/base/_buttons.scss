@@ -1,7 +1,10 @@
 button,
+.button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  display: flex;
+  align-items: center;
   appearance: none;
   background-color: $action-color;
   border: 0;
@@ -9,7 +12,7 @@ button,
   color: $action-color--contrast;
   cursor: pointer;
   display: inline-block;
-  font-family: var(--font-family-base);
+  font-family: var(--font-family--heading);
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -34,5 +37,20 @@ button,
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5;
+  }
+
+  &.button--alt {
+    color: $action-color;
+    background-color: $color-white;
+    border: 2px solid $action-color;
+
+    &:hover {
+      background: linear-gradient(-69.63deg,   #5449D4  0%, #75F7F9 100%);
+      color: white;
+    }
+  }
+
+  svg {
+    margin-right: .5rem;
   }
 }
