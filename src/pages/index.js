@@ -33,19 +33,18 @@ function renderProjects(projects) {
     const { slug } = item.node.fields
     const { title, intro, category, featuredImage } = item.node.frontmatter
     return (
-       <div className="project-preview">
-         <div class="project-preview-image">
+      <div className="project-preview">
+        <div class="project-preview-image">
           <Link to={`/work/${slug}/`}>
               <Img fluid={featuredImage.childImageSharp.fluid} />
           </Link>
         </div>
-         <div className="project-preview-text">
-            <h2>{ title }</h2>
-            <p>{ intro }</p>
-            <p>{ category }</p>
-         </div>
-         
-     </div>
+        <div className="project-preview-text">
+            <h2 className="project-preview-title">{ title }</h2>
+            <p className="project-preview-intro">{ intro }</p>
+            <p className="project-preview-category">{ category }</p>
+        </div>
+      </div>
     )
  })
 }

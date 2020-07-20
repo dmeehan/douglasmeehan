@@ -47,20 +47,16 @@ const ProjectTemplate = ({ data }) => {
                     <div>{ company }</div>
                   </li>
                   <li>
-                    <h4>Role</h4>
-                    <div>{ role }</div>
-                  </li>
-                  <li>
                     <h4>Date</h4>
                     <div>{ date }</div>
                   </li>
                   <li>
-                    <h4>Type</h4>
-                    <div>{ category }</div>
+                    <h4>Role</h4>
+                    <div>{ role }</div>
                   </li>
                   <li>
-                    <h4>Tags</h4>
-                    <div>{ tags }</div>
+                    <h4>Type</h4>
+                    <div>{ category }</div>
                   </li>
                   
                 </ul>
