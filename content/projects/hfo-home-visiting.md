@@ -43,10 +43,21 @@ Vistalogic had already developed a new “Care Plan” interface, but that was f
 
 We identified different users who had distinct roles in the process.
 
-Screeners
-Program Managers
-Home Visitors
-Supervisors
+### Screeners
+
+The screener is responsible for conducting the initial screening of the potential client to determine if they are eligible for home visiting services.
+
+### Program Managers
+
+The program manager is responsible for reviewing the screening, approving the service request for home visiting services, and assigning the service request to a home visitor. They also work closely with the home visitors to help manage cases, case loads, and performance. 
+
+### Home Visitors
+
+The home visitors are the users who interface directly with the clients and manage cases. They conduct home visits and are responsible for outreach and enrollment. Once the client is enrolled, they are responsible for developing their own personal Care Plans. They manage and document all of their work through the CLARA system.
+
+### Supervisors
+
+Supervisors are interested in understanding the performance of the HFO team across locations and agencies through metrics such as home visit completion rate, case load, and number of enrolled focus children.
 
 <hr />
 
@@ -64,7 +75,7 @@ I worked with the Program Managers to prioritize the list of 30 requirements and
 
 ## Creating the Design Story
 
-Once we had the requirement set organized and prioritized, I synthesized the work into an overall Design Story that would guide the design process.
+Once we had the requirement set organized and prioritized, and a good understanding of our users and their roles, I synthesized the work into an overall design story that would guide the design process by helping us to determine where each of the features fit within the existing system, what new features needed to be developed, and how all of these pieces fit together into a coherent work flow.
 
 <hr />
 
