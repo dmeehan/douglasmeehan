@@ -1,6 +1,6 @@
 ---
 title: HFO Home Visiting Interface
-intro: New features and an optimized interface for a family support and parent
+intro: New features and an optimized interface for a Oregon State DOE family support and parent
   education home visiting program.
 client: Oregon Department of Education
 company: Vistalogic, Inc
