@@ -6,9 +6,6 @@
 
 
 @mixin contour-background {
-    background: linear-gradient(-69.63deg,   #5449D4  0%, #75F7F9 100%);
-    color: white;
-
     &::after {
         content: "";
         position: absolute;
@@ -25,33 +22,150 @@
 }
 
 
+.body--work, .body--casestudies {
+    .header {
+        background: #f9f9f9;
+
+        &::after {
+            opacity: 1;
+        }
+
+        color: #333;
+
+        .logo {
+            color: #63C9D7;
+        }
+
+        .menu {
+            > li {
+                a {
+                    color: #9A9A9A;
+                }
+            }
+        }
+
+        .social {
+            > li {
+                a {
+                    color: $font-color--base;
+                }
+            }
+        }
+    }
+
+    .main {
+
+        > div {
+            padding-top: 3rem;
+        }
+
+        h1 {
+            font-weight: 400;
+            //color: #ADADAD;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .nav-toggle {
+        span, &::before, &:after {
+            background-color: $color-blue;
+        }
+    }
+}
+
+.body--work {
+    .header {
+        .menu, .social {
+            > li {
+                &.menu-work {
+                    a {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body--casestudies {
+    .header {
+        .menu, .social {
+            > li {
+                &.menu-casestudies {
+                    a {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body--about {
+    .header {
+        .menu, .social {
+            > li {
+                &.menu-about {
+                    a {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.body--contact {
+    .header {
+        .menu, .social {
+            > li {
+                &.menu-contact {
+                    a {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 .header {
     position: fixed;
+    z-index: 999998;
     transition: all 0.5s ease-in-out;
     width: 100%;
-    padding: 1.5rem;
+    padding: var(--spacing);
     height: 6rem;
 
     @include contour-background();
 
-    > div {
-        //display: flex;
-        //flex-direction: column;
-        //justify-content: space-between;
-    }
-    
+    background: linear-gradient(-69.63deg,   #5449D4  0%, #75F7F9 100%);
+    color: white;
+
     h1 {
         color: white;
         margin-bottom: 0;
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 0;
         
+        a {
+            line-height: 1;
+            span {
+                line-height: 1;
+            }
+        }
+
         .title {
             @include hide-visually;
         }
 
         .logo {
-            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 0;
         }
 
         a {
@@ -73,11 +187,11 @@
 
         > li {
             margin-bottom: var(--spacing--small);
+
+             a {
+                font-weight: 400;
+             }
         }
-    }
-
-    > div {
-
     }
 
     .social {
@@ -92,7 +206,7 @@
         
         > li {
             margin-right: var(--spacing);
-            font-size: 24px;
+            font-size: 21px;
 
             &:last-child {
                 margin-right: 0;
@@ -113,7 +227,7 @@
 }
 
 .main {
-    margin-top: 6rem;
+    margin-top: 6.5rem;
     > div  {
         padding: var(--spacing);
     }
@@ -124,25 +238,22 @@
     }
 
     h1 {
-        font-size: 64px;
+        font-size: 2.5rem;
         color: #63C9D7;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
 
         span {
-            display: block;
+            //display: block;
+            //margin-right: 1em;
         }
     }
 
-    h2 {
-        font-size: 30px;
-        font-weight: 100;
-        color: #275B62;
-        margin-bottom: 4rem;
-    }
-
     p {
-        font-size: 24px;
-        color: #999;
-        max-width: 1160px;
+        //font-size: 24px;
+        //color: #999;
+        //max-width: 1160px;
     }
 
     &.work {
@@ -159,15 +270,184 @@
     }
 
     .breadcrumb {
-        li {
+        li, a {
             color: #121212;
             font-weight: 100;
             text-transform: uppercase;
             font-family: var(--font-family--heading);
+            
+        }
+
+        a {
+            text-decoration: none;
+            
+            &:hover {
+                color: $color-blue;
+            }
         }
 
         margin-bottom: var(--spacing--small);
     }
+}
+
+
+.page {
+    .page-subtitle {
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #275B62;
+        margin-bottom: 2rem;
+        line-height: 1.4;
+    }
+}
+
+.project {
+    .project-intro {
+        font-weight: 100;
+        font-size: 2.5rem;
+        color: darken($font-color--heading, 10%);
+        margin-bottom: 4rem;
+    }
+
+    .project-description {
+        margin-top: 4rem;
+    }
+
+    .project-meta {
+        h4 {
+            font-size: .875rem;
+            text-transform: uppercase;
+            margin-bottom: .125rem;
+            font-weight: 400;
+            //color: #ccc;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        p, li {
+            font-size: 0.75;
+        }
+
+        li {
+            margin-right: 2rem;
+
+            &:last-child {
+                margin-right: o;
+            }
+        }
+    }
+
+    .project-content {
+        flex: 3;
+        max-width: 940px;
+    }
+    
+    .project-text {
+        h2 {
+            color: #9A9A9A;
+            font-weight: 100;
+            margin-bottom: 2rem;
+            font-size: 1.75rem;
+        }
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        p, h3 {
+            max-width: 768px;
+        }
+
+        p {
+            line-height: 1.6;
+
+            > img {
+                width: 100%;
+            }
+        }
+
+        hr {
+            margin: 3rem 0;
+            color: #efefef;
+        }
+
+        blockquote {
+            display: flex;
+            font-size: 1.4em;
+            font-style:italic;
+            color: #555555;
+            padding: 0 2rem;
+            //border-left:8px solid $color-blue-light;
+            line-height:1.6;
+            //background:#f9f9f9;
+            margin: 0;
+            blockquote { quotes: '\201C' '\201D'; }
+
+            p {
+                padding: 2rem;
+            }
+
+            &::before, &::after {
+                flex: none;
+                color: #ccc;
+                font-size: 8rem;
+                opacity: 0.5;
+                line-height: 1;
+            }
+
+            &::before {
+                position: relative;
+                top: 0;
+                content: open-quote;
+            }
+
+            &::after {
+                position: relative;
+                top: 100%;
+                align-self: flex-end;
+                //content: close-quote;
+            }
+          }
+        
+    }
+}
+
+.page-projects {
+    width: 100%;
+
+    .project-preview {
+        margin-bottom: 2rem;
+        
+        &-text {
+            h2 {
+                font-weight: 400;
+                font-size: 1.5rem;
+            }
+        }
+
+        &-image {
+            margin-bottom: 2rem;
+        }
+
+        &-title {
+            margin-bottom: 2rem;
+        }
+
+        &-intro {
+
+        }
+
+        &-category {
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            font-weight: bold;
+            font-family: var(--font-family--heading);
+        }
+    }
+
 }
 
 @media (min-width: 768px) { 
@@ -176,7 +456,9 @@
     }
 
     .header {
-        height: 8rem;
+        height: auto;
+        padding: var(--spacing);
+        padding-bottom: .89rem;
 
         &::after {
             background: url(../images/contour_bg_90.png);
@@ -191,24 +473,33 @@
 
         > div {
             display: flex;
-            align-items: center;
+            align-items: flex-end;
             width: 100%;
+            //padding-top: var(--spacing);
         }
 
         .menu {
             opacity: 1;
             position: static;
             display: flex;
+            align-items: flex-end;
             margin-left: auto;
             width: auto;
+            margin-bottom: .61rem;
 
             > li {
                 margin-top: 1rem;
+                margin-bottom: 0;
                 font-size: 1rem;
+                line-height: 1;
                 margin-right: var(--spacing);
 
                 &:last-child {
                     margin-right: 0;
+                }
+
+                > a {
+                    line-height: 1;
                 }
             }
         }
@@ -228,7 +519,25 @@
     }
 
     .main {
-        margin-top: 8rem;
+
+        > div {
+            padding: 3rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        .page-subtitle {
+            font-size: 2rem;
+            margin-bottom: 4rem;
+        }
+    }
+
+    .page-projects {
+        .project-preview {
+            margin-bottom: 4rem;
+        }
     }
 }
 
@@ -279,11 +588,13 @@
             left: 0;
             opacity: 1;
             margin-left: 0;
+            margin-top: 3rem;
 
             > li {
                 margin-top: 0;
                 font-size: 21px;
                 margin-right: 0;
+                margin-bottom: 1.5rem;;
 
                 &:last-child {
                     margin-right: 0;
@@ -300,18 +611,63 @@
         width: 80%;
 
         > div  {
-            padding:  5%;
+            padding:  var(--spacing) 2.5rem;
         }
 
         h1 {
             font-size: 72px;
         }
 
-        h2 {
+        .page-subtitle {
             font-size: 36px;
             margin-bottom: 4rem;
         }
     }
+
+    .project {
+        .project-description {
+            display: flex;
+            margin-top: 4rem;
+        }
+    
+        .project-meta {
+            flex: 1;
+    
+            h4 {
+                //margin-bottom: 0;
+            }
+    
+            p, li {
+                font-size: 0.75;
+            }
+
+            ul {
+                display: block;
+            }
+    
+            li {
+                margin-bottom: 2rem;
+            }
+        }
+    
+        .project-content {
+            flex: 3;
+            max-width: 940px;
+        }
+        
+        .project-text {
+            p, h3 {
+                //max-width: 940px;
+                
+            }
+
+            
+    
+            
+        }
+    }
+
+    
 }
 
 
@@ -346,17 +702,76 @@
         width: 80%;
 
         > div  {
-            padding:  5% 10%;
+            padding:  4rem 10%;
         }
 
         h1 {
             font-size: 72px;
         }
 
-        h2 {
+        .page-subtitle {
             font-size: 36px;
             margin-bottom: 4rem;
         }
+    }
+
+    .page-projects {
+        display: flex;
+        width: 100%;
+    
+        .project-preview {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4rem;
+            flex: 1 1 50%;
+    
+            
+            &-text {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                //justify-content: space-between;
+                //margin-right: 2rem;
+    
+                h2 {
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                }
+    
+                :last-child {
+                    margin-top: auto;
+                }
+            }
+    
+            &-image {
+                //flex: 1 1 50%;
+                //margin-left: 2rem;
+                margin-bottom: 2rem;
+            }
+    
+            &:nth-child(even) {
+                .project-preview-text {
+                    //order: 1;
+                    //margin-left: 2rem;
+                    //margin-right: 0;
+                }
+    
+                .project-preview-image {
+                    //order: 0;
+                    //margin-right: 2rem;
+                    //margin-left: 0;
+                }
+            }
+    
+            &:first-child {
+                margin-right: 2rem;
+            }
+    
+            &:last-child {
+                margin-left: 2rem;
+            }
+        }
+    
     }
 }
 
@@ -373,7 +788,7 @@
 
         .social {
             > li {
-                font-size: 30px;
+                //font-size: 30px;
             }
             
         }
@@ -390,10 +805,13 @@
             font-size: 84px;
         }
 
-        h2 {
+        .page-subtitle {
             font-size: 36px;
             margin-bottom: 4rem;
         }
     }
 }
+
+
+
 

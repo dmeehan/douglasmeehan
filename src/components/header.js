@@ -1,8 +1,5 @@
-import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
-//import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { FaEnvelope, FaGithub, FaDribbble, FaLinkedin} from 'react-icons/fa';
 
 const Header = ({ siteTitle }) => (
@@ -11,27 +8,27 @@ const Header = ({ siteTitle }) => (
       <h1>
         <Link to="/">
           <span className="logo">dm</span>
-          <span className="title">{siteTitle}</span>
+           <span className="title">{siteTitle}</span>
         </Link>
       </h1>
       <ul className="menu">
-        <li>
+      <li class="menu-work">
+          <Link to="/work">
+            <span>Work</span>
+          </Link>
+        </li>
+        <li class="menu-about">
           <Link to="/about">
             <span>About</span>
           </Link>
         </li>
-        <li>
-          <AniLink fade to="/work">
-            <span>Work</span>
-          </AniLink>
-        </li>
-        <li>
-          <Link to="/work">
+        {/*<li class="menu-casestudies">
+          <Link to="/casestudies">
             <span>Case Studies</span>
           </Link>
-        </li>
-        <li>
-          <Link to="/work">
+</li>*/}
+        <li class="menu-contact">
+          <Link to="/contact">
             <span>Contact</span>
           </Link>
         </li>
@@ -44,36 +41,28 @@ const Header = ({ siteTitle }) => (
           </a>
         </li>
         <li>
-          <Link to="">
-          <FaGithub />
-            <span className="label">Github</span>
-          </Link>
+          <a href="https://github.com/dmeehan" target="_blank">
+            <FaGithub />
+              <span className="label">Github</span>
+            </a>
         </li>
         <li>
-          <Link to="">
+          <a href="https://dribbble.com/dmeehan" target="_blank">
           <FaDribbble />
             <span className="label">Dribbble</span>
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="https://www.linkedin.com/in/douglasmeehan/">
-          <FaLinkedin />
+          <a href="https://www.linkedin.com/in/douglasmeehan/" target="_blank">
+            <FaLinkedin />
             <span className="label">LinkedIn</span>
-          </Link>
+          </a>
         </li>
     </ul>
-      
+
     
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

@@ -1,24 +1,77 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import ProjectPreview from "../components/project-preview";
+import Img from "gatsby-image"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
+export default ({ data }) => (
   <Layout>
-    <SEO title="Home" />
-    <div>
-      <h1><span>Hello!</span><span>I'm Douglas Meehan.</span></h1>
-      <h2>UI/UX Design, Data Visualization, Mapping.</h2>
-      <p>I am a designer and craftsman with 20 years of experience in organizing and visually representing complex systems through user interface design, 
-        data visualization, mapping, and visual representation of space.</p>
-        <p>I'm able to take designs from concept, to mockup, to engaging, discoverable, and responsive HTML/CSS/JavaScript user interfaces. 
-          I have experience managing projects, leading design teams, and communicating design concepts to business managers and clients. 
-          I enjoy working in teams to create things that are greater than the sum of their parts. I understand that the only way to solve 
-          design problems is through iteration: drawing, communicating, critiquing, building, testing, listening, and more drawing.</p>
-    </div>
-  </Layout>
-)
 
-export default IndexPage
+<   SEO title="Home" />
+    <div className="page">
+      <div className="page-header">
+        <h1><span>Hello!&nbsp;</span><span>I'm Douglas Meehan.</span></h1>
+        <h2 className="page-subtitle">I'm a <strong>User Interface Designer and Developer</strong> with 20 years experience 
+        in organizing and visually representing complex systems through UI/UX, 
+        data visualization, mapping, and visual representation of space.</h2>
+      </div>
+      <div className="page-description"></div>
+      { }
+      <div className="page-projects">
+        {renderProjects(data.allMarkdownRemark.edges)}
+      </div>
+    </div>
+    
+  </Layout>
+);
+
+
+function renderProjects(projects) {
+  return projects.map(item => {
+    const { slug } = item.node.fields
+    const { title, intro, category, featuredImage } = item.node.frontmatter
+    return (
+       <div className="project-preview">
+         <div class="project-preview-image">
+          <Link to={`/work/${slug}/`}>
+              <Img fluid={featuredImage.childImageSharp.fluid} />
+          </Link>
+        </div>
+         <div className="project-preview-text">
+            <h2>{ title }</h2>
+            <p>{ intro }</p>
+            <p>{ category }</p>
+         </div>
+         
+     </div>
+    )
+ })
+}
+
+export const ProjectQuery = graphql`
+  {
+    allMarkdownRemark(filter: {frontmatter: {isFeatured: {eq: true}}}) {
+      edges {
+        node {
+          frontmatter {
+            title
+            intro
+            category
+            featuredImage {
+                childImageSharp {
+                    fluid {
+                    ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

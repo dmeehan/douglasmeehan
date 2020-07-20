@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: dmeehan/douglasmeehan
+
+# when using the default proxy server port
+local_backend: true
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project"}
+      - {label: "Title", name: "title" }
+      - {label: "Intro", name: "intro"  }
+      - {label: "Client", name: "client"  }
+      - {label: "Company", name: "company"  }
+      - {label: "Role", name: "role"  }
+      - {label: "Date", name: "date", widget: "date",  }
+      - {label: "Featured", name: "isFeatured", widget: "boolean", default: false}
+      - {label: "Case Study", name: "isCaseStudy", widget: "boolean", default: false}
+      - {label: "Image", name: "featuredImage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Category", name: "category", required: false }

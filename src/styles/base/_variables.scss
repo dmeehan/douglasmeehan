@@ -1,22 +1,24 @@
 // Colors
-$blue: #1565c0;
-$blue-light: #3b83d5;
-$gray: #333;
-$white: #fff;
+$color-blue: #63C9D7;
+$color-blue-light: lighten(#63C9D7, 20%);
+$color-blue-dark: darken(#63C9D7, 20%);
+$color-gray: #333;
+$color-white: #fff;
 
 // Font Colors
-$font-color--base: $gray;
-$action-color: $blue;
-$action-color--alt: $blue-light;
-$action-color--contrast: $white;
+$font-color--base: darken($color-blue, 50%);
+$font-color--heading: #a9a9a9;
+$action-color: $color-blue;
+$action-color--alt: $color-blue-light;
+$action-color--contrast: $color-white;
 
 // Background Colors
-$viewport-background-color: $white;
+$viewport-background-color: $color-white;
 
 :root {
   // Typography
-  --font-family: p22-mackinac-pro, serif;
-  --font-family--heading: "Avenir Next", system-ui, sans-serif;
+  --font-family: p22-mackinac-pro, "Georgia", serif;
+  --font-family--heading: "Avenir Next", "Prompt", "Helvetica", system-ui, sans-serif;
 
   --font-weight--thin: 100;
   --font-weight--extra-light: 200;

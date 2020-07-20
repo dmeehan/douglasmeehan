@@ -15,6 +15,28 @@ h6 {
   font-size: 1.25rem;
   line-height: var(--line-height--heading);
   margin: 0 0 var(--spacing--small);
+  font-weight: 700;
+  color: $font-color--heading;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+
 }
 
 p {
@@ -25,14 +47,29 @@ a {
   color: $action-color;
   text-decoration-skip-ink: auto;
   transition: color var(--duration) var(--timing);
+  outline: none;
+  font-weight: 700;
+  text-decoration: none;
 
   &:hover {
     color: $action-color--alt;
+    outline: none;
   }
 
   &:focus {
     outline: var(--focus-outline);
     outline-offset: var(--focus-outline-offset);
+    outline: none;
+  }
+
+  &:active {
+    outline: none;
+    color: $action-color--alt;
+  }
+
+  &:visted {
+    outline: none;
+    color: $color-blue-dark;
   }
 }
 

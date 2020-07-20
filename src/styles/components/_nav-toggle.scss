@@ -1,8 +1,8 @@
 .nav-toggle {
     position: fixed;
     transition: all 0.5s ease-in-out, background-color 2s ease-in-out;
-    z-index: 9999;
-    top: 46px;
+    z-index: 999999;
+    top: 41px;
     right: var(--spacing);
     margin: 0;
     display: block;
@@ -43,7 +43,7 @@
 }
     
 .nav-toggle-trigger {
-    z-index: 9999;
+    z-index: 999999;
     position: fixed;
     top: 0;
     right: 0;
@@ -75,19 +75,16 @@
             }
 
             span {
-                background: white;
                 left: 100%;
                 opacity: 0;
             }
 
             &::before {
-                background: white;
                 top: 7px;
                 transform: rotate(135deg);
             }
 
             &::after {
-                background: white;
                 bottom: 7px;
                 transform: rotate(-135deg);
             }
