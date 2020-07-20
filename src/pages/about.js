@@ -26,9 +26,9 @@ const AboutPage = ( { data }) => (
         </div>
         
         <h3 className="page-callout">I'm able to take designs from concept, to mockup, to 
-        engaging, discoverable, and responsive <strong>HTML/CSS/JavaScript</strong> user interfaces. I have experience <strong>managing</strong> projects, 
-        <strong>leading</strong> design teams, and <strong>communicating</strong> design concepts to business managers and clients. I enjoy working in teams to create things that are greater than the sum of their parts. 
-          I understand that <strong>the only way to solve 
+        engaging, discoverable, and responsive <strong>HTML/CSS/JavaScript</strong> user interfaces. I have experience <strong>managing</strong> 
+        projects, <strong>leading</strong> design teams, and <strong>communicating</strong> design concepts to business managers and clients. 
+        I enjoy working in teams to create things that are greater than the sum of their parts. I understand that <strong>the only way to solve 
           design problems is through iteration</strong>: drawing, communicating, critiquing, building, testing, listening, and more drawing.</h3>
         
         <p className="page-text">I have dual master degrees from the University of Pennsylvania School of Design and have worked professionally as a designer
