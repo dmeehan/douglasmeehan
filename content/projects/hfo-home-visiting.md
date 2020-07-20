@@ -52,9 +52,11 @@ Supervisors
 
 ## Requirements Gathering
 
-Vistalogic’s Program Managers worked with HFO to develop a list of requirements for the new features that they wanted to build into the CLARA system. They also identified a set of these features that would require design documentation prior to implementation.
+> I worked with the Program Managers to prioritize the list of 30 requirements and 97 sub-requirments and to identify items that would require intensive design iteration prior to development...
 
-I worked with the Program Managers to prioritize the development of these features and to identify items that would greatly benefit from design documentation prior to development, even if only used internally within Vistalogic. Other features were either backend changes, or were implementation of previously designed components and would not require design work. 
+Vistalogic’s Program Managers worked with HFO to develop a list of requirements for the new features that they wanted to build into the CLARA system. They also identified a set of these features that would require design documentation as a deliverable.
+
+I worked with the Program Managers to prioritize the list of 30 requirements and 97 sub-requirments and to identify items that would require intensive design iteration prior to development, whether as a deliverable or to be used internally within Vistalogic. We developed a list of of 19 major requirements that required design exploration and documentation.
 
 ![](/assets/excel_file.png)
 
