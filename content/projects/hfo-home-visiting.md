@@ -68,13 +68,13 @@ Once we had the requirement set organized and prioritized, I synthesized the wor
 
 <hr />
 
-## Diagraming and Wire framing
+## Diagraming User Flows
 
 ![Client Screening Diagram](/assets/client_screening_diagram.png "Client Screening Diagram")
 
 <hr />
 
-## Integrating with the Design System & Design Iteration
+## Design iteration utilizing the Design System
 
 <hr />
 
