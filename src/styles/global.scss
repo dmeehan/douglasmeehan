@@ -357,7 +357,7 @@
             text-transform: uppercase;
         }
 
-        p, h3 {
+        p, h3, blockquote {
             max-width: 768px;
         }
 
@@ -384,7 +384,7 @@
             line-height:1.6;
             //background:#f9f9f9;
             margin: 0;
-            blockquote { quotes: '\201C' '\201D'; }
+            quotes: '\201C' '\201D';
 
             p {
                 padding: 2rem;
@@ -399,8 +399,6 @@
             }
 
             &::before {
-                position: relative;
-                top: 0;
                 content: open-quote;
             }
 

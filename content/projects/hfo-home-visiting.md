@@ -23,6 +23,8 @@ Healthy Families Oregon (HFO) is a free family support and parent education home
 
 ## My Role
 
+> I was the sole UI designer and front-end developer on this project...
+
 At Vistalogic we had a very small but agile team. I was the sole UI designer and front-end developer on this project and worked together with program managers and the head software architect to transform the clients needs into a compelling and user-friendly user interface for the CLARA software product. Unfortunately, this project did not get to the implementation phase due to budget constraints, but had it moved forward, I would have been the engineer for all aspects of frontend development.
 
 <hr />
@@ -34,8 +36,6 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 Healthy Families Oregon was already a user of <a href="https://vistalogic.net/Products/Clara" target="_blank">Vistalogic's CLARA system</a>, a technology platform that offers vital data collection and management tools to public agencies, non-profits, and healthcare organizations aiming to provide efficient and compassionate services to their clients. However, the system, as it was designed, did not sufficiently match how they handled their workflows and processes.
 
 Vistalogic had already developed a new “Care Plan” interface, but that was focused on a single client. HFO needed to work on a “Case” level where they would be able to work on multiple clients within a household simultaneously. In addition, we needed to develop new features to support their program which required a pregnant person or a primary caregiver and an infant child in order to be eligible. Finally, we needed to tie the new features together with existing features into a seamless workflow across four different user types. 
-
-![Case Console]( "Case Console")
 
 <hr />
 
@@ -80,6 +80,6 @@ Once we had the requirement set organized and prioritized, I synthesized the wor
 
 ## Outcome
 
-![Console Evolution](assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
+![Console Evolution](/assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
 ![HFO interface interaction](/assets/hfo-flow.gif "HFO interface interaction")
