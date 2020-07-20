@@ -35,9 +35,7 @@ Healthy Families Oregon was already a user of <a href="https://vistalogic.net/Pr
 
 Vistalogic had already developed a new “Care Plan” interface, but that was focused on a single client. HFO needed to work on a “Case” level where they would be able to work on multiple clients within a household simultaneously. In addition, we needed to develop new features to support their program which required a pregnant person or a primary caregiver and an infant child in order to be eligible. Finally, we needed to tie the new features together with existing features into a seamless workflow across four different user types. 
 
-![Case Console](static/assets/test.png "Case Console")
-
-Screening => Outreach => Enrollment => Case Management => Supervision
+![Case Console]( "Case Console")
 
 <hr />
 
