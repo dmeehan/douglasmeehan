@@ -29,7 +29,7 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 ## The Problem
 
-> the system, as it was designed, did not sufficiently match how they handled their workflows and processes.
+> the system, as it was designed, did not sufficiently match how \[HFO] handled their workflows and processes.
 
 Healthy Families Oregon was already a user of <a href="https://vistalogic.net/Products/Clara" target="_blank">Vistalogic's CLARA system</a>, a technology platform that offers vital data collection and management tools to public agencies, non-profits, and healthcare organizations aiming to provide efficient and compassionate services to their clients. However, the system, as it was designed, did not sufficiently match how they handled their workflows and processes.
 
@@ -80,6 +80,6 @@ Once we had the requirement set organized and prioritized, I synthesized the wor
 
 ## Outcome
 
-![Console Evolution](/assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
+![Console Evolution](assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
 ![HFO interface interaction](/assets/hfo-flow.gif "HFO interface interaction")
