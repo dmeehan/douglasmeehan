@@ -115,7 +115,7 @@ Through iteration and analysis we arrived at a set of over 50 high-fidelity mock
 
 ![Console Evolution](/assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
-The center piece of thew new interface, the Case Console, represents a further evolution in my work to streamline the CLARA interface. When I began working with Vistalogic, the system was closer to a database administration interface than a purpose-built application. Over time, I worked to focus the interface more on use-cases and away from the underlying data records. The _Console_ became the organizing metaphor for a single-page application that could handle what previously required multiple server side page renders tied to a confusing navigaion system. The Case Console, coupled with modal workflows, will allow HFO's Home Visitors to manage their Cases and Client Care Plans from a single clear interface.
+The center piece of thew new interface, the Case Console, represents a further evolution in my work to streamline the CLARA interface. When I began working with Vistalogic, the system was closer to a database administration interface than a purpose-built application. Over time, I worked to focus the interface more on use-cases and away from the underlying data records. The _Console_ became the organizing metaphor for a single-page application that could handle what previously required multiple server side page renders tied to a confusing navigation system. The Case Console, coupled with modal workflows, will allow HFO's Home Visitors to manage their Cases and Client Care Plans from a single clear interface.
 
 ### Deliverable
 
