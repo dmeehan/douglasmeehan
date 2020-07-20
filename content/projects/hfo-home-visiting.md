@@ -23,7 +23,7 @@ Healthy Families Oregon (HFO) is a free family support and parent education home
 
 ## My Role
 
-Lead designer and developer
+At Vistalogic we had a very small but agile team. I was the sole UI designer and front-end developer on this project and worked together with program managers and the head software architect to transform the clients needs into a compelling and user-friendly user interface for the CLARA software product. Unfortunately, this project did not get to the implementation phase due to budget constraints, but had it moved forward, I would have been the engineer for all aspects of frontend development.
 
 <hr />
 
@@ -79,5 +79,7 @@ Once we had the requirement set organized and prioritized, I synthesized the wor
 <hr />
 
 ## Outcome
+
+![Console Evolution](assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
 ![HFO interface interaction](/assets/hfo-flow.gif "HFO interface interaction")
