@@ -80,6 +80,6 @@ Once we had the requirement set organized and prioritized, I synthesized the wor
 
 ## Outcome
 
-![Console Evolution](assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
+![Console Evolution](/assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
 ![HFO interface interaction](/assets/hfo-flow.gif "HFO interface interaction")
