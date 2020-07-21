@@ -97,7 +97,7 @@ I dove further into the individual features represented in the design story to m
 
 > Utilizing this design system, I began to create design iterations for each of the pieces identified in the design story.
 
-Over my five years working at Vistalogic, I completely overhauled the user interface of the CLARA software system. This included introducing modern techniques and tooling for CSS, organizing and improving the javascript code base, and developing a design system of resuable and nestable components (<a href="https://build.vistalogic.net/claraBeta/styleguide" target="_blank">View documentation in progress</a>). 
+Over my five years working at Vistalogic, I completely overhauled the user interface of the CLARA software system. This included introducing modern techniques and tooling for CSS, organizing and improving the javascript code base, and developing a design system of resuable and nestable components. <a href="https://build.vistalogic.net/claraBeta/styleguide" target="_blank">View design system documentation</a> (Work in progress). 
 
 ![Design System](/assets/design_system.png "Design System")
 
