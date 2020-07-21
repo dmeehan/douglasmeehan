@@ -479,6 +479,7 @@
 
 .page-header {
     .page-title {
+        //font-weight: 100;
         font-size: 1.5rem;
     }
 }
@@ -739,7 +740,7 @@
     .page {
         .page-header {
             display: flex;
-            margin-bottom: var(--spacing);
+            margin-bottom: 3rem;
     
             .page-header-image {
                 order: 0;
@@ -760,6 +761,7 @@
         }
 
         .page-callout {
+            margin-bottom: 3rem;
             font-size: 1.25rem;
         }
     }
@@ -981,18 +983,20 @@
 
     .page {
         .page-header {
-    
+            margin-bottom: 4rem;
+
             .page-title {
                 font-size: 2.5rem;
             }
         }
 
         .page-callout {
+            margin-bottom: 4rem;
             font-size: 1.75rem;
         }
 
         .page-text {
-            max-width: 768px;
+            max-width: 940px;
         }
     }
     
