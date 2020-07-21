@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Helmet from "react-helmet"
+import { FaEnvelope } from 'react-icons/fa'
 
 const IndexPage = () => (
   <Layout>
@@ -31,7 +32,7 @@ const IndexPage = () => (
                 Message
                 <textarea name="message" id="message" rows="5" />
             </label>
-            <button type="submit">Send</button>
+            <button type="submit"><FaEnvelope /><span>Send</span></button>
         </form>
     </div>
   </Layout>
