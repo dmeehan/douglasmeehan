@@ -20,9 +20,10 @@ collections:
       - {label: "Client", name: "client"  }
       - {label: "Company", name: "company"  }
       - {label: "Role", name: "role"  }
-      - {label: "Date", name: "date", widget: "date",  }
+      - {label: "Date", name: "date", widget: "date"  }
       - {label: "Featured", name: "isFeatured", widget: "boolean", default: false}
       - {label: "Case Study", name: "isCaseStudy", widget: "boolean", default: false}
+      - {label: "Publish", name: "isPublished", widget: "boolean", default: false}
       - {label: "Image", name: "featuredImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", required: false}

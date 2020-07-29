@@ -54,7 +54,10 @@ export default ProjectPage
 
 export const ProjectQuery = graphql`
   {
-    allMarkdownRemark(filter: {frontmatter: {isFeatured: {eq: true}}}) {
+    allMarkdownRemark(
+      filter: {frontmatter: {isPublished: {eq: true}}}
+      sort: { fields: [frontmatter___isFeatured, frontmatter___date], order: DESC}
+      ) {
       edges {
         node {
           frontmatter {

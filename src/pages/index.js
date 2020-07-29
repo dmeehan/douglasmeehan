@@ -9,16 +9,12 @@ import Img from "gatsby-image"
 export default ({ data }) => (
   <Layout>
 
-<   SEO title="Home" />
+  <SEO title="Home" />
     <div className="page">
-      
         <h1><span>Hello!&nbsp;</span><span>I'm Douglas Meehan.</span></h1>
         <h2 className="page-subtitle">I'm a <strong>User Interface Designer and Developer</strong> with 20 years experience 
         in organizing and visually representing complex systems through UI/UX, 
         data visualization, mapping, and visual representation of space.</h2>
-      
-      <div className="page-description"></div>
-      { }
       <div className="page-projects">
         {renderProjects(data.allMarkdownRemark.edges)}
       </div>
@@ -58,7 +54,7 @@ function renderProjects(projects) {
 
 export const ProjectQuery = graphql`
   {
-    allMarkdownRemark(filter: {frontmatter: {isFeatured: {eq: true}}}) {
+    allMarkdownRemark(filter: {frontmatter: {isPublished: {eq: true}, isFeatured: {eq: true}}}) {
       edges {
         node {
           frontmatter {

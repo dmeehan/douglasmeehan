@@ -829,13 +829,14 @@
 
     .page-projects {
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
     
         .project-preview {
             display: flex;
             flex-direction: column;
             margin-bottom: 4rem;
-            flex: 1 1 50%;
+            flex: 0 0 50%;
     
             
             &-text {
@@ -860,7 +861,7 @@
                 //margin-left: 2rem;
                 margin-bottom: 2rem;
             }
-    
+
             &:nth-child(even) {
                 .project-preview-text {
                     //order: 1;
@@ -875,12 +876,18 @@
                 }
             }
     
-            &:first-child {
-                margin-right: 2rem;
+            &:nth-child(2n){
+                padding-right: 2rem;
             }
     
-            &:last-child {
-                margin-left: 2rem;
+            &:nth-child(2n + 1) {
+                padding-left: 2rem;
+            }
+
+            &:first-child {
+                padding-left: 0;
+                padding-right: 0;
+                flex: 1 1 100%;
             }
         }
     
