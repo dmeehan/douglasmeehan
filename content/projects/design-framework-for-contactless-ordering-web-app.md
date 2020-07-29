@@ -8,7 +8,7 @@ date: 2020-07-19T02:28:15.112Z
 isFeatured: true
 isCaseStudy: false
 isPublished: false
-featuredImage: /assets/thompson_ortho.png
+featuredImage: ../../static/assets/thompson_ortho.png
 tags:
   - UI Design
 category: UI Design
