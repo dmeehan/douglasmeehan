@@ -5,7 +5,7 @@ backend:
 # when using the default proxy server port
 local_backend: true
 
-media_folder: static/assets
+media_folder: /static/assets
 public_folder: /assets
 
 collections:

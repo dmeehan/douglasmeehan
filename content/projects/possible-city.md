@@ -11,6 +11,6 @@ date: 2020-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
 isPublished: false
-featuredImage: /assets/lotxlot-1-.png
+featuredImage: ../../static/assets/lotxlot-1-.png
 ---
 ![](/assets/possible_city_screenshot.jpg)
