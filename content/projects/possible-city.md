@@ -13,4 +13,6 @@ isCaseStudy: false
 isPublished: true
 featuredImage: ../../static/assets/possible_city_map.png
 ---
+https://www.vanalen.org/projects/urban-voids-grounds-for-change/
+
 ![](/assets/possible_city_screenshot.jpg)
