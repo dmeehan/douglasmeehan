@@ -38,7 +38,7 @@ const ProjectPage = ({ data }) => {
               </h2>
               <p className="project-preview-intro">{ intro }</p>
               <p className="project-preview-category">{ category }</p>
-              <p className="project-preview-category">
+              <p className="project-preview-link">
                 <Link to={`/work/${slug}/`}>
                   View project &raquo;
                   </Link>
