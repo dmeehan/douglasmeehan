@@ -1,6 +1,7 @@
 ---
-title: Design Framework for Contactless Ordering Web App
-intro: This is the intro
+title: Curant Contactless Ordering Web App
+intro: A design framework and design studies for a white-label contactless
+  ordering web app.
 client: Curant
 company: Freelance
 role: UI / UX Designer
