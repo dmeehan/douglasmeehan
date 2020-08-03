@@ -8,7 +8,7 @@ date: 2020-07-19T02:28:15.112Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
-featuredImage: ../../static/assets/thompson_mocks.png
+featuredImage: /assets/curant_main.png
 tags:
   - UI Design
 category: UI Design
