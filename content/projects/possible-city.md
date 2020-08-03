@@ -10,7 +10,7 @@ role: Designer & Developer
 date: 2020-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
-isPublished: false
+isPublished: true
 featuredImage: ../../static/assets/lotxlot-1-.png
 ---
 ![](/assets/possible_city_screenshot.jpg)
