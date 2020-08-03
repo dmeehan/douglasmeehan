@@ -11,6 +11,6 @@ date: 2020-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
-featuredImage: /assets/possible_city_map.png
+featuredImage: ../../static/assets/possible_city_map.png
 ---
 ![](/assets/possible_city_screenshot.jpg)
