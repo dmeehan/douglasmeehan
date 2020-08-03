@@ -8,7 +8,7 @@ role: Lead Designer
 date: 2014-06-01T18:28:06.194Z
 isFeatured: false
 isCaseStudy: false
-isPublished: true
+isPublished: false
 featuredImage: ../../static/assets/aware-logo.png
 ---
 Logo, Identity, etc
