@@ -10,8 +10,8 @@ date: 2016-04-01T14:12:31.520Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
-featuredImage: ../../static/assets/aware_management.png
-category: UI Design
+featuredImage: /assets/aware_management.png
+category: UI Design & Development, Data Visualization
 ---
 This was user interface design work I completed as a part of a larger project for the Aware Institute. We designed and built a management application for zoos to help them track and use scientific principles in the care of their animals.
 
