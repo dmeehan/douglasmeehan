@@ -8,7 +8,7 @@ date: 2020-07-19T02:28:15.112Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
-featuredImage: /assets/curant_main.png
+featuredImage: ../../static/assets/curant_main.png
 tags:
   - UI Design
 category: UI Design
