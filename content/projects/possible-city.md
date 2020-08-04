@@ -13,6 +13,10 @@ isCaseStudy: false
 isPublished: true
 featuredImage: ../../static/assets/possible_city_map.png
 ---
-https://www.vanalen.org/projects/urban-voids-grounds-for-change/
+Built fully-functional web application using Django, PostGIS, Leaflet, Open Street Maps, and open parcel data from the City of Philadelphia.
+
+Original author of open-source Django package django-rest-framework-gis required to facilitate mapping functionality. I handed it over to a new maintainer and the package now has 51 contributors and 509 commits.
+
+Possible City was a finalist in the 2013 Knight News Challenge on Open Government.
 
 ![](/assets/possible_city_screenshot.jpg)
