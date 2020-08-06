@@ -7,7 +7,7 @@ intro: A web-enabled social mapping platform with a mission to connect and
 client: Test / Plot Studio
 company: Test / Plot Studio
 role: Designer & Developer
-date: 2020-07-30T18:43:51.231Z
+date: 2015-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
