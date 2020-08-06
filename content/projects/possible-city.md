@@ -4,14 +4,14 @@ title: Possible City
 intro: A web-enabled social mapping platform with a mission to connect and
   incubate citizen-driven reclamation of vacant properties for innovative
   community uses.
-client: Test / Plot Studio
-company: Test / Plot Studio
+company: Freelance
 role: Designer & Developer
 date: 2015-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
 featuredImage: ../../static/assets/possible_city_map.png
+category: UI Design, Development, Mapping
 ---
 Built fully-functional web application using Django, PostGIS, Leaflet, Open Street Maps, and open parcel data from the City of Philadelphia.
 

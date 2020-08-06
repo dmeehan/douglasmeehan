@@ -4,7 +4,7 @@ title: Aware Management Interface
 intro: A management application for zoos to help them use and track scientific
   principles in the care of their animal populations.
 client: Aware Institute
-company: Test / Plot Studio
+company: Freelance
 role: Lead Designer & Frontend Developer
 date: 2016-04-01T14:12:31.520Z
 isFeatured: false
