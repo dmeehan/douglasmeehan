@@ -4,6 +4,7 @@ title: Possible City
 intro: A web-enabled social mapping platform with a mission to connect and
   incubate citizen-driven reclamation of vacant properties for innovative
   community uses.
+client: Personal
 company: Freelance
 role: Designer & Developer
 date: 2015-07-30T18:43:51.231Z
@@ -18,5 +19,10 @@ Built fully-functional web application using Django, PostGIS, Leaflet, Open Stre
 Original author of open-source Django package django-rest-framework-gis required to facilitate mapping functionality. I handed it over to a new maintainer and the package now has 51 contributors and 509 commits.
 
 Possible City was a finalist in the 2013 Knight News Challenge on Open Government.
+
+**Github repositories:**
+
+https://github.com/possiblecity/possiblecity\
+https://github.com/openwisp/django-rest-framework-gis
 
 ![](/assets/possible_city_screenshot.jpg)
