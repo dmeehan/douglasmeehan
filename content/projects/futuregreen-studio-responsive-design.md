@@ -9,7 +9,7 @@ role: Lead Frontend & CMS Developer
 date: 2017-07-18T02:28:15.112Z
 isFeatured: false
 isCaseStudy: false
-isPublished: true
+isPublished: false
 featuredImage: ../../static/assets/fgs_multi-device.png
 tags:
   - Django
