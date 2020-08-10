@@ -10,7 +10,7 @@ date: 2016-04-01T14:12:31.520Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
-order: 2
+order: 4
 featuredImage: ../../static/assets/aware_management.png
 category: UI Design, Frontend Development, Data Visualization
 ---

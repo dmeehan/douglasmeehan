@@ -6,7 +6,7 @@ intro: A web-enabled social mapping platform with a mission to connect and
 client: Personal
 isPublished: true
 featuredImage: ../../static/assets/possible_city_map.png
-order: 4
+order: 2
 title: Possible City
 company: Freelance
 role: Designer & Developer
@@ -43,17 +43,17 @@ Possible City is developing a set of tools to address "the particulars" and to n
 ### 
 Free Agent
 
- Free Agent consists of user profiles of people interested in developing their own agency in the city - a place for individuals to express an interest in making a direct impact in their neighborhood. People can share what they would like to help create as well as what they are able to offer, whether that be time, money, materials, or expertise.
+Free Agent consists of user profiles of people interested in developing their own agency in the city - a place for individuals to express an interest in making a direct impact in their neighborhood. People can share what they would like to help create as well as what they are able to offer, whether that be time, money, materials, or expertise.
 
 ### 
 lotXlot
 
- lotXlot is an application for mapping the city on a parcel by parcel basis, starting with open data provided by the city. It allows Agents to locate "Lots" with specific characteristics, gather up-to-date data about them, add their own data, and organize around them. The initial focus of lotXlot will be vacant lots, but every parcel in the city will have its own profile page and will be open to intervention.
+lotXlot is an application for mapping the city on a parcel by parcel basis, starting with open data provided by the city. It allows Agents to locate "Lots" with specific characteristics, gather up-to-date data about them, add their own data, and organize around them. The initial focus of lotXlot will be vacant lots, but every parcel in the city will have its own profile page and will be open to intervention.
 
 ![](/assets/lot.png)
 
 ### 
-Float 
+Float
 
 Float allows Agents to "float" interventions for specific lots in the city. The interventions can range from simple seed ideas to more fully realized projects. Once the concepts have been floated, other Agents can comment, join, support, and fund the realization of the project -- together they begin to "ground" the project - where the project transitions from the virtual space to physical ground. Related projects can be networked with each other to allow those involved to share knowledge and resources and begin to populate the city with new emergent physical and social structures.
 
