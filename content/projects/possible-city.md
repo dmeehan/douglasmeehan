@@ -9,7 +9,7 @@ featuredImage: ../../static/assets/possible_city_map.png
 order: 2
 title: Possible City
 company: Freelance
-role: Designer & Developer
+role: Founder, Designer & Developer
 date: 2015-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
