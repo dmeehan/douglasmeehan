@@ -29,7 +29,11 @@ const ProjectTemplate = ({ data }) => {
       <div>
         <div className="breadcrumb">
           <ul>
-            <li><Link to="/work">Work</Link></li>
+            <li>
+                <Link to={`/work/`}>
+                  Work
+                </Link>
+            </li>
           </ul>
         </div>
         <div className="project">
@@ -70,6 +74,11 @@ const ProjectTemplate = ({ data }) => {
           </div>
           
         </div>
+        <p>
+          <Link to={`/work/`}>
+          &#8592; Back to all projects
+          </Link>
+        </p>
       </div>
     </Layout>
   )
