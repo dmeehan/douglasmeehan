@@ -10,6 +10,7 @@ date: 2016-03-01T15:25:33.435Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
+order: 3
 featuredImage: ../../static/assets/sup_main.png
 category: UI Design & Development, Mapping, Data Visualization
 ---

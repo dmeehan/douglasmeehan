@@ -11,6 +11,7 @@ date: 2015-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
 isPublished: true
+order: 4
 featuredImage: ../../static/assets/possible_city_map.png
 category: UI Design, Development, Mapping
 ---

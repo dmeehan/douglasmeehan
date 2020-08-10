@@ -9,6 +9,7 @@ date: 2020-07-19T02:28:15.112Z
 isFeatured: true
 isCaseStudy: true
 isPublished: true
+order: 0
 featuredImage: ../../static/assets/three_screens.png
 tags:
   - UI Design

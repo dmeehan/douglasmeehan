@@ -56,7 +56,7 @@ export const ProjectQuery = graphql`
   {
     allMarkdownRemark(
       filter: {frontmatter: {isPublished: {eq: true}}}
-      sort: { fields: [frontmatter___isFeatured, frontmatter___date], order: DESC}
+      sort: { fields: [frontmatter___order]}
       ) {
       edges {
         node {
@@ -64,6 +64,8 @@ export const ProjectQuery = graphql`
             title
             intro
             category
+            date
+            order
             featuredImage {
                 childImageSharp {
                     fluid {
