@@ -1,16 +1,16 @@
 ---
-title: Curant Contactless Ordering Web App
 intro: A design framework and design studies for a white-label contactless
   ordering web app.
 client: Curant
+isPublished: true
+featuredImage: ../../static/assets/curant_main.png
+order: 1
+title: Curant Contactless Ordering Web App
 company: Freelance
 role: UI / UX Designer
 date: 2020-07-19T02:28:15.112Z
 isFeatured: false
 isCaseStudy: false
-isPublished: true
-order: 1
-featuredImage: ../../static/assets/curant_main.png
 tags:
   - UI Design
 category: UI Design
@@ -25,6 +25,8 @@ Curant brought me in as a freelance designer to work on the UI and UX design for
 
 ## The Challenge
 
+![](/assets/web_prototype.png)
+
 The client had a prototype web application in development which had a very basic UI that needed user experience attention: better overall navigation and a quicker more direct path to the ordering interface. In addition, because this is a white-label application, we needed to develop a generic design framework that could be easily rebranded as new partners were brought on without a lot of integration work. 
 
 ## Wireframes
@@ -36,8 +38,6 @@ I worked with Curant to develop a wireframe of the user flow and basic design el
 We also made improvements to the ordering process. Previously, the user would add an item to the cart, which would bring up a form with an textarea for notes/allergies. The user would submit and then only once they added the item to the cart would they be able to edit the quantity. Rather than an initial "Add to Cart" call to action, the design will allow users to click on an individual menu item, bringing up a modal with additional information about the product, a form to enter quantity and notes, and a call to action to add to the cart.
 
 A global menu was added so that the users always had access to the other areas of the application such as promotions, menus, cart, their profile, and support. A floating action button was added to give non-logged in users quick access to signing in, and logged in users quick access to their cart.
-
-
 
 ## Design Studies
 
