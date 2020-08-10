@@ -66,7 +66,8 @@ Possible City was a finalist in the 2013 Knight News Challenge on Open Governmen
 
 **Github repositories:**
 
-https://github.com/possiblecity/possiblecity\
+https://github.com/possiblecity/possiblecity
+
 https://github.com/openwisp/django-rest-framework-gis
 
 ![](/assets/possible_city_screenshot.jpg)
