@@ -43,7 +43,7 @@ function renderProjects(projects) {
             <p className="project-preview-category">{ category }</p>
             <p className="project-preview-category">
               <Link to={`/work/${slug}/`}>
-                View project &raquo;
+                View project &#8594;
                 </Link>
             </p>
         </div>
