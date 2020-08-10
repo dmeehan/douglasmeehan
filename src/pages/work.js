@@ -17,6 +17,11 @@ const ProjectPage = ({ data }) => {
         <div className="page-projects">
           {renderProjects(data.allMarkdownRemark.edges)}
         </div>
+        <p>
+          <Link to={`/work/`}>
+            &#8592; Back to all projects
+          </Link>
+        </p>
       </div>
     </Layout>
   )  
@@ -40,7 +45,7 @@ const ProjectPage = ({ data }) => {
               <p className="project-preview-category">{ category }</p>
               <p className="project-preview-link">
                 <Link to={`/work/${slug}/`}>
-                  View project &raquo;
+                  View project &#8594;
                   </Link>
               </p>
           </div>
