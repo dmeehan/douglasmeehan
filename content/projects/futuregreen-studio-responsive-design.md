@@ -1,17 +1,18 @@
 ---
 templateKey: project
-title: Futuregreen Studio Portfolio Website
 intro: Backend and CMS integration, frontend development, and responsive design
   for a boutique landscape architecture firm.
 client: Futuregreen Studio
+isPublished: true
+Order: 6
+featuredImage: ../../static/assets/fgs_multi-device.png
+order: 5
+title: Futuregreen Studio Portfolio Website
 company: Freelance
 role: Lead Frontend & CMS Developer
 date: 2017-07-18T02:28:15.112Z
 isFeatured: false
 isCaseStudy: false
-isPublished: false
-order: 5
-featuredImage: ../../static/assets/fgs_multi-device.png
 tags:
   - Django
   - Wagtail
