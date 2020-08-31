@@ -1,17 +1,17 @@
 ---
 templateKey: project
+title: Aware Management Interface
 intro: A management application for zoos to help them use and track scientific
   principles in the care of their animal populations.
 client: Aware Institute
-isPublished: true
-featuredImage: ../../static/assets/aware_management.png
-order: 0
-title: Aware Management Interface
 company: Vistalogic, Inc.
 role: Lead Designer & Frontend Developer
 date: 2016-04-01T14:12:31.520Z
 isFeatured: true
 isCaseStudy: false
+isPublished: true
+order: 0
+featuredImage: ../../static/assets/aware_management.png
 category: UI Design, Frontend Development, Data Visualization
 ---
 ## Our Client
@@ -19,6 +19,8 @@ category: UI Design, Frontend Development, Data Visualization
 > AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education.
 
 AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
+
+![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
 
 <hr />
 
