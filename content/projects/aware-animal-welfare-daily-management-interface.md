@@ -16,17 +16,17 @@ category: UI Design, Frontend Development, Data Visualization
 ---
 ## Our Client
 
-> AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education.
+> Based upon the outcome of this study, Aware developed a set of metrics to assist zoo and research organization in improving the care of their animals.
 
-AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
+AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phds in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
-<<<<<<< HEAD
 Aware founded the Elephant Welfare Initiative (EWI) which came about following the completion of a large-scale North American elephant welfare study (see http://collections.plos.org/elephant-welfare), which demonstrated that daily practices such as social management, enrichment and exercise play a critical role in improving the welfare of zoo elephants.
 
 Based upon the outcome of this study, Aware developed a set of metrics to assist zoo and research organization in improving the care of their animals.
-=======
+
 ![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
->>>>>>> a36b75d457945e989a4f0b4c2ab1faa506270e1c
+
+> > > > > > > a36b75d457945e989a4f0b4c2ab1faa506270e1c
 
 <hr />
 
@@ -59,8 +59,6 @@ Curators (managers)
 Directors (supervisors) 
 Scientists and researchers use the aggregate data. 
 Inspectors (from the accreditation body) review the reports
-
-###
 
 <hr />
 
