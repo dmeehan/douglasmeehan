@@ -24,11 +24,7 @@ Aware founded the Elephant Welfare Initiative (EWI) which came about following t
 
 Based upon the outcome of this study, Aware developed a set of metrics to assist zoo and research organization in improving the care of their animals.
 
-![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
-
-> > > > > > > a36b75d457945e989a4f0b4c2ab1faa506270e1c
-
-<hr />
+![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")<hr />
 
 ## My Role
 
