@@ -3,7 +3,7 @@ intro: New features and an optimized interface for a Oregon State DOE family
   support and parent education home visiting program.
 client: Oregon Department of Education
 isPublished: true
-Order: 0
+Order: 4
 featuredImage: ../../static/assets/three_screens.png
 order: 0
 title: HFO Home Visiting Interface
