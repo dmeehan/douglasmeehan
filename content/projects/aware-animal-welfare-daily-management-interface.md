@@ -11,7 +11,7 @@ title: Aware Management Interface
 company: Vistalogic, Inc.
 role: Lead Designer & Frontend Developer
 date: 2016-04-01T14:12:31.520Z
-isFeatured: false
+isFeatured: true
 isCaseStudy: false
 category: UI Design, Frontend Development, Data Visualization
 ---
