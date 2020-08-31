@@ -20,6 +20,10 @@ category: UI Design, Frontend Development, Data Visualization
 
 AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
+Aware founded the Elephant Welfare Initiative (EWI) which came about following the completion of a large-scale North American elephant welfare study (see http://collections.plos.org/elephant-welfare), which demonstrated that daily practices such as social management, enrichment and exercise play a critical role in improving the welfare of zoo elephants.
+
+Based upon the outcome of this study, Aware developed a set of metrics to assist zoo and research organization in improving the care of their animals.
+
 <hr />
 
 ## My Role
@@ -34,11 +38,25 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 > Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals.
 
-Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals. They needed an interface which would transform a data-heavy set of metrics into digestible and compelling user interface that zoo's would integrate into their daily management. 
+Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of managment data and calculate and display metrics based on this information.  
 
-Aware needed an interface through which managers and caregivers could visually enter their housing schedules for all of their animals for the day. Within those housing blocks, they needed to enter different "Events" such as feeding, husbandry, veterinary care, observations, and enrichment.
+We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
 
-One of the challenges was to build the interface to be as high fidelity as possible on desktop, but to also work on mobile devices in the field. I designed and built a "Planner" interface that was optimized for desktop and an "Agenda" interface which was tailored for mobile viewing and updating.
+In addition, we needed to support an interface that was as high fidelity as possible on desktop, but also would work well on mobile devices in the field.
+
+<hr />
+
+## Users
+
+We identified four different types of users:
+
+Zoo Keepers (care staff)
+Curators (managers)
+Directors (supervisors) 
+Scientists and researchers use the aggregate data. 
+Inspectors (from the accreditation body) review the reports
+
+###
 
 <hr />
 
