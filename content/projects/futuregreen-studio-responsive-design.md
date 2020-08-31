@@ -4,9 +4,8 @@ intro: Backend and CMS integration, frontend development, and responsive design
   for a boutique landscape architecture firm.
 client: Futuregreen Studio
 isPublished: true
-Order: 5
-featuredImage: ../../static/assets/fgs_multi-device.png
 order: 5
+featuredImage: ../../static/assets/fgs_multi-device.png
 title: Futuregreen Studio Portfolio Website
 company: Freelance
 role: Lead Frontend & CMS Developer

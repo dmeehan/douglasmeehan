@@ -24,7 +24,7 @@ collections:
       - {label: "Featured", name: "isFeatured", widget: "boolean", default: false}
       - {label: "Case Study", name: "isCaseStudy", widget: "boolean", default: false}
       - {label: "Publish", name: "isPublished", widget: "boolean", default: false}
-      - {label: "Order", name: "Order", widget: "number", valueType: "int", required: false}
+      - {label: "Order", name: "order", widget: "number", valueType: "int", required: false}
       - {label: "Image", name: "featuredImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", required: false}

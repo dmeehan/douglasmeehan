@@ -4,9 +4,8 @@ intro: Integrating user generated content through the Instagram API to document
   wild urban plants.
 client: Future Green Studio
 isPublished: true
-Order: 2
+order: 2
 featuredImage: ../../static/assets/sup_main.png
-order: 3
 title: Spontanous Urban Plants Mapping Project
 company: Freelance
 role: Designer & Developer
