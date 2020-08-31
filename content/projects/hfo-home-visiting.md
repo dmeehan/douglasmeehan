@@ -1,16 +1,16 @@
 ---
-title: HFO Home Visiting Interface
-intro: New features and an optimized interface for a Oregon State DOE family support and parent
-  education home visiting program.
+intro: New features and an optimized interface for a Oregon State DOE family
+  support and parent education home visiting program.
 client: Oregon Department of Education
+isPublished: false
+featuredImage: ../../static/assets/three_screens.png
+order: 0
+title: HFO Home Visiting Interface
 company: Vistalogic, Inc
 role: UI / UX Designer
 date: 2020-07-19T02:28:15.112Z
 isFeatured: true
 isCaseStudy: true
-isPublished: true
-order: 0
-featuredImage: ../../static/assets/three_screens.png
 tags:
   - UI Design
 category: UI Design
