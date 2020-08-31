@@ -4,6 +4,7 @@ intro: A management application for zoos to help them use and track scientific
   principles in the care of their animal populations.
 client: Aware Institute
 isPublished: true
+Order: 0
 featuredImage: ../../static/assets/aware_management.png
 order: 4
 title: Aware Management Interface
