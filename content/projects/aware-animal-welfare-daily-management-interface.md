@@ -1,17 +1,17 @@
 ---
 templateKey: project
+title: Aware Management Interface
 intro: A management application for zoos to help them use and track scientific
   principles in the care of their animal populations.
 client: Aware Institute
-isPublished: true
-featuredImage: ../../static/assets/aware_management.png
-order: 0
-title: Aware Management Interface
 company: Vistalogic, Inc.
 role: Lead Designer & Frontend Developer
 date: 2016-04-01T14:12:31.520Z
 isFeatured: true
 isCaseStudy: false
+isPublished: true
+order: 0
+featuredImage: ../../static/assets/aware_management.png
 category: UI Design, Frontend Development, Data Visualization
 ---
 ## Our Client
@@ -20,9 +20,13 @@ category: UI Design, Frontend Development, Data Visualization
 
 AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
+<<<<<<< HEAD
 Aware founded the Elephant Welfare Initiative (EWI) which came about following the completion of a large-scale North American elephant welfare study (see http://collections.plos.org/elephant-welfare), which demonstrated that daily practices such as social management, enrichment and exercise play a critical role in improving the welfare of zoo elephants.
 
 Based upon the outcome of this study, Aware developed a set of metrics to assist zoo and research organization in improving the care of their animals.
+=======
+![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
+>>>>>>> a36b75d457945e989a4f0b4c2ab1faa506270e1c
 
 <hr />
 
