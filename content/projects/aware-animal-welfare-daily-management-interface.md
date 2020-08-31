@@ -80,10 +80,12 @@ Inspectors (from the accreditation body) review the reports
 
 ## Implementation
 
+![](/assets/annotated_agenda_list_view.png)
+
 <hr />
 
 ## Outcome
 
 The application is currently used by 20 zoos and research institutions including San Diego Zoo Global, Oregon Zoo, Saint Louis Zoo, Kansas City Zoo, Sedgwick County Zoo, Cincinnati Zoo, Zoo de Granby, Louisville Zoological Garden, Dickerson Park Zoo, Roger Williams Park Zoo, Buffalo Zoo, Cameron Park Zoo, El Paso Zoo, Fresno Chaffee Zoo, Milwaukee County Zoological Gardens, Point Defiance Zoo & Aquarium, Riverbanks Zoo & Garden, Santa Barbara Zoological Gardens, Zoo Atlanta, and Caldwell Zoo.
 
-These zoos have been able to use the software to implement new best-practices for the care of their animals and are seeing measurable improvements in their welfare. For example, after only a few months of using the interface, the team at Cincinnati Zoo & Botanical Garden  identified a need for and devised a plan to improve the space and social experience for all elephants. More inside–outside choice is provided, and female elephants are more regularly housed together overnight in larger, connected spaces. As a result, overnight social experience for the herd increased 6%, daytime inside–outside choice for the male increased 14% and night-time space experience increased 29% for two females who were more often provided overnight access to a large outdoor habitat.  
+These zoos have been able to use the software to implement new best-practices for the care of their animals and are seeing measurable improvements in their welfare. For example, after only a few months of using the interface, the team at Cincinnati Zoo & Botanical Garden  identified a need for and devised a plan to improve the space and social experience for all elephants. More inside–outside choice is provided, and female elephants are more regularly housed together overnight in larger, connected spaces. As a result, overnight social experience for the herd increased 6%, daytime inside–outside choice for the male increased 14% and night-time space experience increased 29% for two females who were more often provided overnight access to a large outdoor habitat.
