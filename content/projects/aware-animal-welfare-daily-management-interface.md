@@ -18,7 +18,7 @@ category: UI Design, Frontend Development, Data Visualization
 
 > AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education.
 
-AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
+AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They consist of a group of Phds in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
 ![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
 
@@ -38,7 +38,7 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 ## The Challenge
 
-> Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals.
+> We were tasked with transforming a data-heavy set of metrics into a digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently.
 
 Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of managment data and calculate and display metrics based on this information.  
 
