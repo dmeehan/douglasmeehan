@@ -72,27 +72,35 @@ Scientists and researchers are interested in accessing the raw data.
 
 Inspector review reports from the zoo to determine accrediation.
 
+While we accounted for the use-cases of each of these user throughout the interface, we determined that our primary users who would be interacting with the application on a daily basis were the **Curators** and **Zoo Keepers**.
+
 <hr />
 
-## Creating Compelling Interfaces for Each Use Case
+## Gamifying the Interface
 
-In order to meet the needs of all of the user types outlined about, we determined that we needed a number of different views that would correspond with the different use cases.
+In order to meet the needs of all of the user types outlined about, we determined that we needed a number of different views that would correspond with the different use cases. Because the application is collecting data to be used for scientfic analysis, we needed to make sure that the users regularly used the interface and submitted complete sets of data. In order to help ensure this would happen without becoming repetitive and tedious, we introduced elements of gamification into the interface.
 
 ### Planner
 
 For the **Curators** we needed an interface that would allow them to visualize the entire 24 hour span of the day and to plan out the housing and event details for that day.  
 
+![](/assets/planning_views.png)
+
+One of the Aware employees is both a data scientist and an artist, so he proposed the idea of "painting" the available time slots with color coded housing options. We decided to pursue this direction and hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would provide a strong at-a-glance visualization of the daily plan as well as encourage the user to complete it. By clicking on available time slots and inserting color coded "blocks" of time assigned to social groups of elephants, the user is able to "build" their housing schedule until the entire calendar is accounted for.  
+
+Once the housing schedule is determined, the Curator can click into time slots within the housing option to add events of varied length, including feeding, enrichment, husbandry, vetrinary care, data logging, and behavior observations.
+
 ![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
 
-By clicking on available time slots and inserting color coded "blocks" of time, the user is able to "build" their housing schedule until the entire calendar is accounted for. We hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would gamify the experience and make it more interesting than simply filling in data in forms. 
+### Summary, Review, & Submit
 
-![](/assets/planning_views.png)
+While the Curator is building the daily plan, they can switch over to the "Review & Submit" tab to get a different at-a-glance view of the progress. This view doubles as a validation check to make sure that the team has completed the housing assigmnents and logged the necessary data for each event on the schedule. When the daily plan has been completed, the Curator can submit the completed plan, at which point the data is locked and calculated against a series of metrics.
 
 ![](/assets/screen-shot-2020-08-31-at-21.01.19.png)
 
-As they are building their 
+### Agenda
 
-
+While the Curator creates the daily plan at the beginning of the week or the day before, the Zoo Keepers implement the plan on the day of. This means that are traveling throughout the exhibit, moving the animals, performing tasks, and enriching the environment. For this use case, we developed the Agenda view. The agenda view is optimized for the updating of events in the field as the Zoo Keepers complete them. We created a timeline based interface optimized for the mobile phone, where the Zoo Keepers can update and edit events, enter details about the events as they complete them, and launch the observation tool for behavior observations.
 
 ![](/assets/agenda_views.png)
 
@@ -102,7 +110,13 @@ As they are building their
 
 ### Daily Report
 
+Once the daily plan has been completed and submitted, the system processes the data against a series of scientifically determined metrics. Our next task was to design a set of report interfaces to display these metrics. 
+
+We started off with a very data-heavy interface, with indicators to show daily changes and progress within a series of categories. Feedback from stakeholders and potential users led us to iterate toward a more "dashboard" type of display. The goal of the daily report is to lead the Curator toward creating daily plans that are more complex and meet certain goals and metrics, so we wanted it to present immediate feedback that could be easily digested and understood. 
+
 ![Daily Report Studies](/assets/report_options.png "Daily Report Iterations")
+
+We landed on an approach that extended the gamication concept from the planning interface, with a series of bubbles that the user is trying to "light up" or fill (Elephant Goals), gauges that they are trying to move past a certain goal (Space and Social Experience metrics), and sets of badges that they are trying to make more varied and complex (Enrichment combinations). 
 
 ![Daily Report](/assets/170312_report_mockup_alt_01_daily_report_program.png "Daily Report")
 
