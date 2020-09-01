@@ -134,6 +134,8 @@ We incorporated the outcome of these studies into our final design of the weekly
 
 ![Weekly Report](/assets/screen-shot-2020-08-31-at-23.10.55.png "Weekly Report")
 
+![Weekly Report Printable](/assets/screen-shot-2020-08-31-at-23.11.56.png "Weekly Report Printable")
+
 ### Monthly Report
 
 The monthly report was developed for our **Curator**, **Director**, and **Inspector** users. It consists of a roll-up of the daily report across a month timeframe. The Housing Experience section shows the Social and Space experience for the herd. In addition, for each individual elephant, we introduced a variation on the bubble widget to show whether they reached their overall housing goal, but also a percentage of days within the month that each elephant reached their daily goals. The Behvavior Observation data shows the percentage of negative stereotypic behaviors recorded for the month and features a flattened bar chart to better compare the data across the elephant population so that users can identify and address longer-term behavioral problems. Finally, we introduced a Tree Map visualization of the Enrichment Combination across the month to indicate diversity of combinations and whether certain combinations were being overused. The report is also available in a printable version for submission to **Inspectors**
