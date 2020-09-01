@@ -86,7 +86,7 @@ For the **Curators** we needed an interface that would allow them to visualize t
 
 ![](/assets/planning_views.png)
 
-One of the Aware employees is both a data scientist and an artist, so he proposed the idea of "painting" the available time slots with color coded housing options. We decided to pursue this direction and hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would provide a strong at-a-glance visualization of the daily plan as well as encourage the user to complete it. By clicking on available time slots and inserting color coded "blocks" of time assigned to social groups of elephants, the user is able to "build" their housing schedule until the entire calendar is accounted for.  
+One of the Aware employees is both a data scientist and an artist, so he proposed the idea of "painting" the available time slots with color coded housing options. We decided to pursue this direction and hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would provide a strong at-a-glance visualization of the daily plan, clearly articulate the social groupings of the elephants within housing options, as well as encourage the user to complete the plan. By clicking on available time slots and inserting color coded "blocks" of time assigned to social groups of elephants, the user is able to "build" their housing schedule until the entire calendar is accounted for.  
 
 Once the housing schedule is determined, the Curator can click into time slots within the housing option to add events of varied length, including feeding, enrichment, husbandry, vetrinary care, data logging, and behavior observations.
 
