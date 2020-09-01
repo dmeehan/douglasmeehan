@@ -132,7 +132,7 @@ We landed on an approach that extended the gamification concept from the plannin
 
 ## Implementation
 
-Once the mockups of the design were completed, I moved into the implementation phase where I transformed the designs into fully functional HTML/CSS/Javascript interfaces. I worked closed with backend developers to help them understand what data was needed for the interfaces and in which formats. This included some work building view models and creating controller functions with dummy data to be filled in by the backend developers who were developing the calculations for the different metrics. 
+Once the mockups of the design were completed and approved, I moved into the implementation phase where I transformed the designs into fully functional HTML/CSS/Javascript interfaces. I worked closed with backend developers to help them understand what data was needed for the interfaces and in which formats. This included some work building view models and creating controller functions with dummy data to be filled in by the backend developers who were developing the calculations for the different metrics. 
 
 ![Annotated Agenda List View](/assets/annotated_agenda_list_view.png "Annotated Agenda List View")
 
