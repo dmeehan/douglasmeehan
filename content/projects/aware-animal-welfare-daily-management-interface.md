@@ -18,7 +18,7 @@ category: UI Design, Frontend Development, Data Visualization
 
 > AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education.
 
-AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
+AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phds in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
 ![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
 
