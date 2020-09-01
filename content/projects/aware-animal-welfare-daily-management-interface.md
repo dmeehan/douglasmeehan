@@ -84,9 +84,9 @@ In order to meet the needs of all of the user types outlined about, we determine
 
 For the **Curators** we needed an interface that would allow them to visualize the entire 24 hour span of the day and to plan out the housing and event details for that day.  
 
-![](/assets/planning_views.png)
-
 One of the Aware employees is both a data scientist and an artist, so he proposed the idea of "painting" the available time slots with color coded housing options. We decided to pursue this direction and hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would provide a strong at-a-glance visualization of the daily plan, clearly articulate the social groupings of the elephants within housing options, as well as encourage the user to complete the plan. By clicking on available time slots and inserting color coded "blocks" of time assigned to social groups of elephants, the user is able to "build" their housing schedule until the entire calendar is accounted for.  
+
+![Building the Daily Plan](/assets/planning_views.png "Building the Daily Plan")
 
 Once the housing schedule is determined, the Curator can click into time slots within the housing option to add events of varied length, including feeding, enrichment, husbandry, vetrinary care, data logging, and behavior observations.
 
@@ -94,15 +94,15 @@ Once the housing schedule is determined, the Curator can click into time slots w
 
 ### Summary, Review, & Submit
 
-While the Curator is building the daily plan, they can switch over to the "Review & Submit" tab to get a different at-a-glance view of the progress. This view doubles as a validation check to make sure that the team has completed the housing assigmnents and logged the necessary data for each event on the schedule. When the daily plan has been completed, the Curator can submit the completed plan, at which point the data is locked and calculated against a series of metrics.
+While the **Curator** is building the daily plan, they can switch over to the "Review & Submit" tab to get a different at-a-glance view of the progress. This view doubles as a validation check to make sure that the team has completed the housing assigmnents and logged the necessary data for each event on the schedule. When the daily plan has been completed, the Curator can submit the completed plan, at which point the data is locked and calculated against a series of metrics.
 
-![](/assets/screen-shot-2020-08-31-at-21.01.19.png)
+![Daily Summary](/assets/screen-shot-2020-08-31-at-21.01.19.png "Daily Summary")
 
 ### Agenda
 
-While the Curator creates the daily plan at the beginning of the week or the day before, the Zoo Keepers implement the plan on the day of. This means that are traveling throughout the exhibit, moving the animals, performing tasks, and enriching the environment. For this use case, we developed the Agenda view. The agenda view is optimized for the updating of events in the field as the Zoo Keepers complete them. We created a timeline based interface optimized for the mobile phone, where the Zoo Keepers can update and edit events, enter details about the events as they complete them, and launch the observation tool for behavior observations.
+While the **Curator** creates the daily plan at the beginning of the week or the day before, the **Zoo Keepers** implement the plan on the day of. This means that are traveling throughout the exhibit, moving the animals, performing tasks, and enriching the environment. For this use case, we developed the Agenda view. The agenda view is optimized for the updating of events in the field as the **Zoo Keepers** complete them. We created a timeline based interface optimized for the mobile phone, where the Zoo Keepers can update and edit events, enter details about the events as they complete them, and launch the observation tool for behavior observations.
 
-![](/assets/agenda_views.png)
+![Agenda View](/assets/agenda_views.png "Agenda View")
 
 <hr />
 
@@ -116,7 +116,7 @@ We started off with a very data-heavy interface, with indicators to show daily c
 
 ![Daily Report Studies](/assets/report_options.png "Daily Report Iterations")
 
-We landed on an approach that extended the gamication concept from the planning interface, with a series of bubbles that the user is trying to "light up" or fill (Elephant Goals), gauges that they are trying to move past a certain goal (Space and Social Experience metrics), and sets of badges that they are trying to make more varied and complex (Enrichment combinations). 
+We landed on an approach that extended the gamification concept from the planning interface, with a series of bubbles that the user is trying to "light up" or fill (Elephant Goals), gauges that they are trying to move past a certain goal (Space and Social Experience metrics), and sets of badges that they are trying to make more varied and complex (Enrichment combinations). 
 
 ![Daily Report](/assets/170312_report_mockup_alt_01_daily_report_program.png "Daily Report")
 
@@ -126,11 +126,15 @@ We landed on an approach that extended the gamication concept from the planning 
 
 ![Weekly Report Testing Content Length](/assets/weekly-report-–-large-housing-sets.png "Weekly Report Testing Content Length")
 
+### Monthly Report
+
 <hr />
 
 ## Implementation
 
-![](/assets/annotated_agenda_list_view.png)
+Once the mockups of the design were completed, I moved into the implementation phase where I transformed the designs into fully functional HTML/CSS/Javascript interfaces. I worked closed with backend developers to help them understand what data was needed for the interfaces and in which formats. This included some work building view models and creating controller functions with dummy data to be filled in by the backend developers who were developing the calculations for the different metrics. 
+
+![Annotated Agenda List View](/assets/annotated_agenda_list_view.png "Annotated Agenda List View")
 
 <hr />
 
