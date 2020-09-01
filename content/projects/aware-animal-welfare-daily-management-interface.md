@@ -38,11 +38,11 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 ## The Challenge
 
-> We were tasked with transforming a data-heavy set of metrics into a digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently.
+> We were tasked with transforming a data-heavy set of metrics into a digestible and compelling user interface that zoos, who are generally adverse to changes to their daily management approach, would adopt and use consistently.
 
-Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of managment data and calculate and display metrics based on this information.  
+Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of management data and calculate and display metrics based on this information.  
 
-We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
+We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoos, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
 
 In addition, we needed to support an interface that was as high fidelity as possible on desktop, but also would work well on mobile devices in the field.
 
