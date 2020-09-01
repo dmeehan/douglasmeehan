@@ -74,15 +74,25 @@ Inspector review reports from the zoo to determine accrediation.
 
 <hr />
 
-## Planner, Agenda, & Summary
+## Creating Compelling Interfaces for Each Use Case
+
+In order to meet the needs of all of the user types outlined about, we determined that we needed a number of different views that would correspond with the different use cases.
+
+### Planner
+
+For the **Curators** we needed an interface that would allow them to visualize the entire 24 hour span of the day and to plan out the housing and event details for that day.  
+
+![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
+
+By clicking on available time slots and inserting color coded "blocks" of time, the user is able to "build" their housing schedule until the entire calendar is accounted for. We hypothesized that the bright colors and the challenge of filling in all of the available time slots with blocks would gamify the experience and make it more interesting than simply filling in data in forms. 
 
 ![](/assets/planning_views.png)
 
-![](/assets/agenda_views.png)
-
 ![](/assets/screen-shot-2020-08-31-at-21.01.19.png)
 
-![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
+As they are building their 
+
+
 
 ![](/assets/agenda_views.png)
 
