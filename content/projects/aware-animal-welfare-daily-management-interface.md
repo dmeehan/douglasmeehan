@@ -126,11 +126,17 @@ For both our **Curator** and our **Director** users, we need to create a report 
 
 ![Weekly Report Studies](/assets/weekly_report_options.png "Weekly Report Studies")
 
+We settled on a grid with the data categories on the y-axis and the days of the week on the x-axis. This provided the user with the best layout for comparing across days by category, and allowed for variation in content length to scroll vertically if necessary. I created a series of test mockups to further study different methods of displaying data, as well as how to best deal with variations in content length between zoos with different numbers of elephants and housing options.
+
 ![Weekly Report Testing Content Length](/assets/weekly-report-–-large-housing-sets.png "Weekly Report Testing Content Length")
+
+We incorporated the outcome of these studies into our final design of the weekly report, which also included a printable version that is suitable for submission to our **Inspector** users.
 
 ![Weekly Report](/assets/screen-shot-2020-08-31-at-23.10.55.png "Weekly Report")
 
 ### Monthly Report
+
+The monthly report was developed for our **Curator**, **Director**, and **Inspector** users. It consists of a roll-up of the daily report across a month timeframe. The "Elephant Goals" metrics show the percentage of days within the month that each elephant reached their goal. The Behvavior Observation data shows the percentage of negative stereotypic behaviors recorded for the month and features a flattened bar chart to better compare the data across the elephant population so that users can identify and address longer-term behavioral problems. Finally, we introduced a Tree Map visualization of the Enrichment Combination across the month to indicate diversity of combinations and whether certain combinations were being overused. 
 
 ![Montly Report](/assets/screen-shot-2020-08-31-at-5.37.01-pm.png "Monthly Report")
 
