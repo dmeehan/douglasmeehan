@@ -122,15 +122,17 @@ We landed on an approach that extended the gamification concept from the plannin
 
 ### Weekly Report
 
+For both our **Curator** and our **Director** users, we need to create a report that would allow them to compare daily plans across a week long time period. We quickly settled on a grid view that compared different categories of data across each day of the week. We then studied different options for laying out the columns as well as different approaches to displaying the data widgets. 
+
 ![Weekly Report Studies](/assets/weekly_report_options.png "Weekly Report Studies")
 
 ![Weekly Report Testing Content Length](/assets/weekly-report-–-large-housing-sets.png "Weekly Report Testing Content Length")
 
-![](/assets/screen-shot-2020-08-31-at-23.10.55.png)
+![Weekly Report](/assets/screen-shot-2020-08-31-at-23.10.55.png "Weekly Report")
 
 ### Monthly Report
 
-![](/assets/screen-shot-2020-08-31-at-5.37.01-pm.png)
+![Montly Report](/assets/screen-shot-2020-08-31-at-5.37.01-pm.png "Monthly Report")
 
 <hr />
 
@@ -144,6 +146,6 @@ Once the mockups of the design were completed and approved, I moved into the imp
 
 ## Outcome
 
-The application is currently used by 20 zoos and research institutions including San Diego Zoo Global, Oregon Zoo, Saint Louis Zoo, Kansas City Zoo, Sedgwick County Zoo, Cincinnati Zoo, Zoo de Granby, Louisville Zoological Garden, Dickerson Park Zoo, Roger Williams Park Zoo, Buffalo Zoo, Cameron Park Zoo, El Paso Zoo, Fresno Chaffee Zoo, Milwaukee County Zoological Gardens, Point Defiance Zoo & Aquarium, Riverbanks Zoo & Garden, Santa Barbara Zoological Gardens, Zoo Atlanta, and Caldwell Zoo.
+The application is currently used by twenty zoos and research institutions including San Diego Zoo Global, Oregon Zoo, Saint Louis Zoo, Kansas City Zoo, Sedgwick County Zoo, Cincinnati Zoo, Zoo de Granby, Louisville Zoological Garden, Dickerson Park Zoo, Roger Williams Park Zoo, Buffalo Zoo, Cameron Park Zoo, El Paso Zoo, Fresno Chaffee Zoo, Milwaukee County Zoological Gardens, Point Defiance Zoo & Aquarium, Riverbanks Zoo & Garden, Santa Barbara Zoological Gardens, Zoo Atlanta, and Caldwell Zoo.
 
 These zoos have been able to use the software to implement new best-practices for the care of their animals and are seeing measurable improvements in their welfare. For example, after only a few months of using the interface, the team at Cincinnati Zoo & Botanical Garden  identified a need for and devised a plan to improve the space and social experience for all elephants. More inside–outside choice is provided, and female elephants are more regularly housed together overnight in larger, connected spaces. As a result, overnight social experience for the herd increased 6%, daytime inside–outside choice for the male increased 14% and night-time space experience increased 29% for two females who were more often provided overnight access to a large outdoor habitat.
