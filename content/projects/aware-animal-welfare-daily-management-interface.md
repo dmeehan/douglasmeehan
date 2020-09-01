@@ -90,7 +90,7 @@ One of the Aware employees is both a data scientist and an artist, so he propose
 
 Once the housing schedule is determined, the Curator can click into time slots within the housing option to add events of varied length, including feeding, enrichment, husbandry, vetrinary care, data logging, and behavior observations.
 
-![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
+![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-22.37.26.png "Daily Planning Interface")
 
 ### Summary, Review, & Submit
 
