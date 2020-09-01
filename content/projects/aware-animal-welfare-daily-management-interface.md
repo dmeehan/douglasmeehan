@@ -126,7 +126,11 @@ We landed on an approach that extended the gamification concept from the plannin
 
 ![Weekly Report Testing Content Length](/assets/weekly-report-–-large-housing-sets.png "Weekly Report Testing Content Length")
 
+![](/assets/screen-shot-2020-08-31-at-23.10.55.png)
+
 ### Monthly Report
+
+![](/assets/screen-shot-2020-08-31-at-5.37.01-pm.png)
 
 <hr />
 
