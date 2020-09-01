@@ -42,7 +42,7 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of managment data and calculate and display metrics based on this information.  
 
-We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
+We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoos, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
 
 In addition, we needed to support an interface that was as high fidelity as possible on desktop, but also would work well on mobile devices in the field.
 
@@ -52,21 +52,25 @@ In addition, we needed to support an interface that was as high fidelity as poss
 
 We identified four different types of users:
 
-Zoo Keepers (care staff)
-Curators (managers)
-Directors (supervisors) 
-Scientists and researchers use the aggregate data. 
-Inspectors (from the accreditation body) review the reports
+### Curators
+
+Curators are responsible for creating the maintenance and care plans for the animals and managing daily operations.
 
 ### Zoo Keepers
 
-### Curators
+The Zoo keepers are responsible for implementing the daily plans: shifting the animals between enclosures, and performing scheduled tasks such as feeding, enrichment, husbandry, and veterinary care.
 
 ### Directors
 
+The Directors supervise the zoo across exhibits and are interesting in understand the higher level trends and performance.
+
 ### Scientists & Researchers
 
+Scientists and researchers are interested in accessing the raw data.
+
 ### Inspectors
+
+Inspector review reports from the zoo to determine accrediation.
 
 <hr />
 
@@ -79,6 +83,8 @@ Inspectors (from the accreditation body) review the reports
 ![](/assets/screen-shot-2020-08-31-at-21.01.19.png)
 
 ![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
+
+![](/assets/agenda_views.png)
 
 <hr />
 
