@@ -72,6 +72,12 @@ Inspectors (from the accreditation body) review the reports
 
 ## Planner, Agenda, & Summary
 
+![](/assets/planning_views.png)
+
+![](/assets/agenda_views.png)
+
+![](/assets/screen-shot-2020-08-31-at-21.01.19.png)
+
 ![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
 
 <hr />
