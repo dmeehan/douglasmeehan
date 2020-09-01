@@ -18,7 +18,7 @@ category: UI Design, Frontend Development, Data Visualization
 
 > AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education.
 
-AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They consist of a group of Phds in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
+AWARE Institute is an independent consulting organization with the mission of supporting advancements in animal welfare through assessment, research, and education. They are a group of Phd's in animal behavior that consult with zoos and research organizations on how to best care for and enrich the lives of animals in captivity.
 
 ![AWARE Institute Logo](/assets/aware-logo.png "AWARE Institute")
 
@@ -38,11 +38,11 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 ## The Challenge
 
-> We were tasked with transforming a data-heavy set of metrics into a digestible and compelling user interface that zoos, who are generally adverse to changes to their daily management approach, would adopt and use consistently.
+> Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals.
 
-Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of management data and calculate and display metrics based on this information.  
+Aware had a vision of a management application for zoos to help them track and use scientific principles in the care of their animals, based on the outcome of their EWI study. They approached Vistalogic to help them develop a system that could facilitate the input of managment data and calculate and display metrics based on this information.  
 
-We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoos, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
+We were tasked with transforming a data-heavy set of metrics into digestible and compelling user interface that zoo's, who are generally adverse to changes to their daily management approach, would adopt and use consistently. 
 
 In addition, we needed to support an interface that was as high fidelity as possible on desktop, but also would work well on mobile devices in the field.
 
@@ -72,9 +72,23 @@ Inspectors (from the accreditation body) review the reports
 
 ## Planner, Agenda, & Summary
 
+![Daily Planning Interface](/assets/screen-shot-2020-08-31-at-15.00.00.png "Daily Planning Interface")
+
 <hr />
 
 ## Reports & Data Visualization
+
+### Daily Report
+
+![Daily Report Studies](/assets/report_options.png "Daily Report Iterations")
+
+![Daily Report](/assets/170312_report_mockup_alt_01_daily_report_program.png "Daily Report")
+
+### Weekly Report
+
+![Weekly Report Studies](/assets/weekly_report_options.png "Weekly Report Studies")
+
+![Weekly Report Testing Content Length](/assets/weekly-report-–-large-housing-sets.png "Weekly Report Testing Content Length")
 
 <hr />
 
