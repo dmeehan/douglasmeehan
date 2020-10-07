@@ -12,7 +12,7 @@ export default ({ data }) => (
   <SEO title="Home" />
     <div className="page">
         <h1><span>Hello!&nbsp;</span><span>I'm Douglas Meehan.</span></h1>
-        <h2 className="page-subtitle">I'm a <strong>User Interface Designer and Developer</strong> with 20 years experience 
+        <h2 className="page-subtitle">I'm a <strong>User Interface Designer and Developer</strong> with extensive experience 
         in organizing and visually representing complex systems through UI/UX, 
         data visualization, mapping, and visual representation of space.</h2>
       <div className="page-projects">
