@@ -5,7 +5,7 @@ intro: A web-enabled social mapping platform with a mission to connect and
   community uses.
 client: Personal
 isPublished: true
-order: 1
+order: 3
 featuredImage: ../../static/assets/possible_city_map.png
 title: Possible City
 company: Freelance

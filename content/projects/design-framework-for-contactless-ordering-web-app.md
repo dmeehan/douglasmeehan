@@ -3,7 +3,7 @@ intro: A design framework and design studies for a white-label contactless
   ordering web app.
 client: Curant
 isPublished: true
-order: 3
+order: 4
 featuredImage: ../../static/assets/curant_main.png
 title: Curant Contactless Ordering Web App
 company: Freelance
