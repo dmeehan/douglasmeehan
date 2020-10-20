@@ -54,9 +54,9 @@ export default AboutPage
 
 export const query =  graphql`
   query {
-    myImage: file(relativePath: {eq: "douglas_meehan.png"}) {
+    myImage: file(relativePath: {eq: "IMG_0370.jpg"}) {
       childImageSharp {
-        fluid(maxWidth: 400) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
         }
       }
