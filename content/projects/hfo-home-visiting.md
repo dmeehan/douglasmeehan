@@ -1,16 +1,16 @@
 ---
-title: HFO Home Visiting Interface
 intro: New features and an optimized interface for a Oregon State DOE family
   support and parent education home visiting program.
 client: Oregon Department of Education
-company: Vistalogic, Inc
-role: UI / UX Designer
-date: 2020-07-19T02:28:15.112Z
-isFeatured: true
-isCaseStudy: true
 isPublished: true
 order: 0
 featuredImage: ../../static/assets/three_screens.png
+title: HFO Home Visiting Interface
+company: Vistalogic, Inc
+role: UI / UX Designer
+date: 2020-07-19T02:28:15.112Z
+isFeatured: false
+isCaseStudy: true
 tags:
   - UI Design
 category: UI Design
@@ -37,7 +37,7 @@ At Vistalogic we had a very small but agile team. I was the sole UI designer and
 
 Healthy Families Oregon was already a user of <a href="https://vistalogic.net/Products/Clara" target="_blank">Vistalogic's CLARA system</a>, a technology platform that offers vital data collection and management tools to public agencies, non-profits, and healthcare organizations. However, the system, as it was designed, did not sufficiently match how they handled their workflows and processes.
 
-Vistalogic had already developed a new *Care Plan* interface that HFO utilized to document their work with clients, but it was focused on a single client. HFO needed to work on a *Case* level where they would be able to work on multiple client Care Plans within a household simultaneously. In addition, we needed to develop new features to support the specific eligibility requirements of their program. Finally, we needed to tie the new features together with existing features into a seamless workflow across four different user types to support screening, review & assignment, case work and management, and program supervision and analysis.
+Vistalogic had already developed a new _Care Plan_ interface that HFO utilized to document their work with clients, but it was focused on a single client. HFO needed to work on a _Case_ level where they would be able to work on multiple client Care Plans within a household simultaneously. In addition, we needed to develop new features to support the specific eligibility requirements of their program. Finally, we needed to tie the new features together with existing features into a seamless workflow across four different user types to support screening, review & assignment, case work and management, and program supervision and analysis.
 
 <hr />
 
@@ -115,11 +115,9 @@ Through iteration and analysis we arrived at a set of over 50 high-fidelity mock
 
 ### Case Console
 
-![Case Console](/assets/test.png "Case Console")
-
 ![Console Evolution](/assets/console-evolution.png "The evolution of the Clara Console interface over my time at Vistalogic.")
 
-The center piece of thew new interface, the Case Console, represents a further evolution in my work to streamline the CLARA interface. When I began working with Vistalogic, the system was closer to a database administration interface than a purpose-built application. Over time, I worked to focus the interface more on use-cases and away from the underlying data records. The *Console* became the organizing metaphor for a single-page application that could handle what previously required multiple server side page renders tied to a confusing navigation system. The Case Console, coupled with modal workflows, will allow HFO's Home Visitors to manage their Cases and Client Care Plans from a single clear interface.
+The center piece of thew new interface, the Case Console, represents a further evolution in my work to streamline the CLARA interface. When I began working with Vistalogic, the system was closer to a database administration interface than a purpose-built application. Over time, I worked to focus the interface more on use-cases and away from the underlying data records. The _Console_ became the organizing metaphor for a single-page application that could handle what previously required multiple server side page renders tied to a confusing navigation system. The Case Console, coupled with modal workflows, will allow HFO's Home Visitors to manage their Cases and Client Care Plans from a single clear interface.
 
 ### Deliverable
 
