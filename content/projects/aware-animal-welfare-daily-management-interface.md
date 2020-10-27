@@ -7,7 +7,7 @@ client: Aware Institute
 company: Vistalogic, Inc.
 role: Lead Designer & Frontend Developer
 date: 2016-04-01T14:12:31.520Z
-isFeatured: false
+isFeatured: true
 isCaseStudy: false
 isPublished: true
 order: 1
