@@ -121,6 +121,12 @@ Through iteration and analysis we arrived at a set of over 50 high-fidelity mock
 
 The center piece of thew new interface, the Case Console, represents a further evolution in my work to streamline the CLARA interface. When I began working with Vistalogic, the system was closer to a database administration interface than a purpose-built application. Over time, I worked to focus the interface more on use-cases and away from the underlying data records. The *Console* became the organizing metaphor for a single-page application that could handle what previously required multiple server side page renders tied to a confusing navigation system. The Case Console, coupled with modal workflows, will allow HFO's Home Visitors to manage their Cases and Client Care Plans from a single clear interface.
 
+### A Streamlined Look and Feel
+
+![New look and feel for the Clara interface](/assets/legacy2new.png "New Look and Feel")
+
+In addition to the improvement in information architecture and user experience, my work included an updated look and feel for the software interface. Modern iconography and typography, judicious use of white space, consistent padding and spacing, consistency between interface components, and strong visual anchors allowed us to present a lot of information in a clean, uncluttered, discoverable interface. 
+
 ### Deliverable
 
 The final deliverable to the client was a design document and an interactive prototype outlining the interface and the user flow. <a href="https://xd.adobe.com/view/25f46961-978f-43ca-6de2-293b837d6569-53c5/?fullscreen" target="_blank">View the complete protoype</a>.
