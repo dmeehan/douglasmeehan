@@ -1,18 +1,18 @@
 ---
 templateKey: project
+title: Possible City
 intro: A web-enabled social mapping platform with a mission to connect and
   incubate citizen-driven reclamation of vacant properties for innovative
   community uses.
 client: Personal
-isPublished: true
-order: 3
-featuredImage: ../../static/assets/possible_city_map.png
-title: Possible City
 company: Freelance
 role: Founder, Designer & Developer
 date: 2015-07-30T18:43:51.231Z
 isFeatured: false
 isCaseStudy: false
+isPublished: true
+order: 3
+featuredImage: ../../static/assets/possible_city_map.png
 category: UI Design, Development, Mapping
 ---
 ## What's the Big Idea?
@@ -70,4 +70,4 @@ https://github.com/possiblecity/possiblecity
 
 https://github.com/openwisp/django-rest-framework-gis
 
-![](/assets/possible_city_screenshot.jpg)
+![](/assets/screenshot_2020-12-22-possible-city-welcome.png)
