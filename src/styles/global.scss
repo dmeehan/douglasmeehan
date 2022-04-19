@@ -14,7 +14,7 @@
         bottom: 0px;
         left: 0px;
         opacity: 0.20;
-        background: url(../images/contour_bg.png);
+        background-image: url(../images/contour_bg.png);
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
@@ -504,7 +504,7 @@
         padding-bottom: .89rem;
 
         &::after {
-            background: url(../images/contour_bg_90.png);
+            background-image: url(../images/contour_bg_90.png);
             background-position: left bottom;
         }
 
@@ -662,7 +662,7 @@
         display: flex;
 
         &::after {
-            background: url(../images/contour_bg.png);
+            background-image: url(../images/contour_bg.png);
             background-position: right top;
         }
 
