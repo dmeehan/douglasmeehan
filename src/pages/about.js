@@ -29,7 +29,7 @@ const AboutPage = ( { data }) => (
   data visualization, mapping, and the built environment. Today I lead product design at 
   Citrine Informatics, where I work with scientists, engineers, and product teams to design 
   AI software for materials research. I like working on problems that <strong>don't have obvious 
-  answers.</strong> I work iteratively: understanding the system, drawing, prototyping, communicating, critiquing, building, testing, listening, and refining.
+  answers.</strong> I work iteratively: understanding the system, drawing, prototyping, communicating, critiquing, building, testing, listening, and refining.</h3>
 
 <p className="page-text">
   Moving between digital and physical design has shaped how I think about systems, relationships, 
