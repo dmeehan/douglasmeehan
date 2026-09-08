@@ -481,6 +481,15 @@
     .page-title {
         //font-weight: 100;
         font-size: 1.5rem;
+
+        > .page-subtitle {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .page-subtitle {
+        font-weight: 300;
+        font-size: 1.5rem;
     }
 }
 
