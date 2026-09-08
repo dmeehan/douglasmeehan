@@ -17,7 +17,7 @@ const AboutPage = ( { data }) => (
       <div className="page-header">
           <div className="page-header-title">
             <h1 className="page-title">I design products that help people navigate complex systems.</h1>
-            <h2>My background spans product design, technology, and the built environment.</h2>
+            <h2 className="page-subtitle">My background spans product design, technology, and the built environment.</h2>
           </div>
           <div className="page-header-image">
             <Img fluid={ data.myImage.childImageSharp.fluid } />
