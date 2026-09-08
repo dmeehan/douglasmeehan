@@ -14,13 +14,11 @@ export default ({ data }) => (
   <h1><span>Hello!&nbsp;</span><span>I'm Douglas Meehan.</span></h1>
     <h2 className="page-subtitle">
       I'm a <strong>product design leader focused on complex systems.</strong>
-    </h2>
-    <p>
       I lead product design at Citrine Informatics, where I design AI software
       used by scientists and engineers. Throughout my career—from digital
       products to urban design and back to software—I've been drawn to problems
       where people need to understand complicated systems in order to make good decisions.
-    </p>
+    </h2>
       <div className="page-projects">
         {renderProjects(data.allMarkdownRemark.edges)}
       </div>
