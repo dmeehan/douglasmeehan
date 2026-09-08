@@ -29,8 +29,7 @@ const AboutPage = ( { data }) => (
   Citrine Informatics, where I work with scientists, engineers, and product teams to design 
   AI software for materials research. I like working on problems that <strong>don't have obvious 
   answers.</strong> My process is iterative: understanding the system, drawing, prototyping, 
-  communicating, critiquing, building, testing, listening, and refining. I still believe that 
-  <strong>making things is one of the best ways to understand a problem.</strong>
+  communicating, critiquing, building, testing, listening, and refining. <strong>Making things is one of the best ways to understand a problem.</strong>
 </h3>
 
 <p className="page-text">
