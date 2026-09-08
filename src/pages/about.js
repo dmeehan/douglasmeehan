@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Helmet from "react-helmet"
 import { FaEnvelope, FaWrench, FaFilePdf, FaLinkedin} from 'react-icons/fa'
-import resume from "../files/DouglasMeehan_Resume_2020.pdf"
+import resume from "../files/Douglas_Meehan_Portfolio_Resume.pdf"
 
 const AboutPage = ( { data }) => (
   <Layout>
