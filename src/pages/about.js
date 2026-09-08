@@ -33,13 +33,6 @@ const AboutPage = ( { data }) => (
 </h3>
 
 <p className="page-text">
-  I have master's degrees in Landscape Architecture and City &amp; Regional Planning from the 
-  University of Pennsylvania School of Design. Before returning to software full-time, I worked 
-  professionally in landscape architecture and urban design, including large-scale projects at 
-  James Corner Field Operations.
-</p>
-
-<p className="page-text">
   Moving between digital and physical design has shaped how I think about systems, relationships, 
   scale, and the ways people understand and move through complex environments.
 </p>
