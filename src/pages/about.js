@@ -16,29 +16,39 @@ const AboutPage = ( { data }) => (
     <div className="page">
       <div className="page-header">
           <div className="page-header-title">
-            <h1 className="page-title">I am a designer and craftsman with extensive training and experience organizing 
-            and visually representing complex systems through user interface design, 
-          data visualization, mapping, and visual representation of space.</h1>
+            <h1 className="page-title">I design products that help people navigate complex systems.</h1>
           </div>
           <div className="page-header-image">
             <Img fluid={ data.myImage.childImageSharp.fluid } />
           </div>
         </div>
         
-        <h3 className="page-callout">I'm able to take designs from concept, to mockup, to 
-        engaging, discoverable, and responsive <strong>HTML/CSS/JavaScript</strong> user interfaces. I have 
-        successfully built design systems, <strong>managed</strong> projects, <strong>lead</strong> design teams, and <strong>communicated</strong> design concepts to 
-        business managers and clients. 
-        I enjoy working in teams to create things that are greater than the sum of their parts. I understand that <strong>the only way to solve 
-        design problems is through iteration</strong>: drawing, communicating, critiquing, building, testing, listening, and more drawing.</h3>
-        
-        <p className="page-text">I have dual master degrees from the University of Pennsylvania School of Design and have worked professionally 
-        as a designer in both the virtual realm of the web and the physical realm of landscape architecture and urban design.</p>
-        
-        <p className="page-text">I’m driven by a desire to develop equitable interfaces between the virtual and physical worlds that empower individuals and 
-          communities to imagine and create sustaining and sustainable living environments.</p>
+        <h3 className="page-callout">
+  I've spent my career working on <strong>complex design problems</strong> across software, 
+  data visualization, mapping, and the built environment. Today I lead product design at 
+  Citrine Informatics, where I work with scientists, engineers, and product teams to design 
+  AI software for materials research. I like working on problems that <strong>don't have obvious 
+  answers.</strong> My process is iterative: understanding the system, drawing, prototyping, 
+  communicating, critiquing, building, testing, listening, and refining. I still believe that 
+  <strong>making things is one of the best ways to understand a problem.</strong>
+</h3>
 
-        <p className="page-text"> Outside of work life, I’m a percussionist/multi-instrumentalist in a 7-piece original rock/funk/soul band and a father to a magical 4 year old girl.</p>
+<p className="page-text">
+  I have master's degrees in Landscape Architecture and City &amp; Regional Planning from the 
+  University of Pennsylvania School of Design. Before returning to software full-time, I worked 
+  professionally in landscape architecture and urban design, including large-scale projects at 
+  James Corner Field Operations.
+</p>
+
+<p className="page-text">
+  Moving between digital and physical design has shaped how I think about systems, relationships, 
+  scale, and the ways people understand and move through complex environments.
+</p>
+
+<p className="page-text">
+  Outside of work, I'm a percussionist and multi-instrumentalist in a seven-piece original 
+  rock/funk/soul band, and a dad.
+</p>
         <div className="page-actions">
           <ul>
             <li><Link to="/work" className="button button--alt"><FaWrench /> <span>View My Work</span></Link></li>
